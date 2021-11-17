@@ -1,86 +1,157 @@
-# Friday Night Funkin' - Psych Engine
-Engine originally used on [Mind Games Mod](https://gamebanana.com/mods/301107), intended to be a fix for the vanilla version's many issues while keeping the casual play aspect of it. Also aiming to be an easier alternative to newbie coders.
+# Changelog
+All notable changes will be documented in this file.
 
-## Installation:
-Follow a Friday Night Funkin' source code compilation tutorial, after this you will need to install LuaJIT.
+The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
+and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-You can do this with: `haxelib install linc_luajit` on a Command prompt/PowerShell
+## [0.2.8]
+### Added
+- TANKMAN! 3 NEW SONGS BY KAWAISPRITE (UGH, GUNS, STRESS)! Charting help by MtH!
+- Monster added into week 2, FINALLY (Charting help by MtH and ChaoticGamer!)
+- Can now change song difficulty mid-game.
+- Shows some song info on pause screen.
+- Cute little icons onto freeplay menu
+### Changed
+- ASSET LOADING OVERHAUL, WAY FASTER LOAD TIMES ON WEB!!! (THANKS TO GEOKURELI WOKE KING)
+- Made difficulty selector on freeplay menu more apparent
+### Fixed
+- That one random note on Bopeebo
 
-...Or if you don't want your mod to be able to run .lua scripts, delete the "LUA_ALLOWED" line on Project.xml
+## [0.2.7.1] - 2021-02-14
+### Added
+- Easter eggs
+- readme's in desktop versions of the game
+### Changed
 
-## Credits:
-* Shadow Mario - Coding
-* RiverOaken - Arts and Animations
+- New icons, old one was placeholder since October woops!
+- Made the transitions between the story mode levels more seamless.
+- Offset of the Newgrounds logo on boot screen.
+- Made the changelog txt so it can be opened easier by normal people who don't have a markdown reader (most normal people);
+### Fixed
+- Fixed crashes on Week 6 story mode dialogue if spam too fast ([Thanks to Lotusotho for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/357))
+- Should show intro credits on desktop versions of the game more consistently
+- Layering on Week 4 songs with GF and the LIMO LOL HOW TF I MISS THIS
+- Chart's and chart editor now support changeBPM, GOD BLESS MTH FOR THIS ONE I BEEN STRUGGLIN WIT THAT SINCE OCTOBER LMAO ([GOD BLESS MTH](https://github.com/ninjamuffin99/Funkin/pull/382))
+- Fixed sustain note trails ALSO THANKS TO MTH U A REAL ONE ([MTH VERY POWERFUL](https://github.com/ninjamuffin99/Funkin/pull/415))
+- Antialiasing on the skyscraper lights
 
-### Special Thanks
-* Keoiki - Note Splash Animations
+## [0.2.7] - 2021-02-02
+### Added
+- PIXEL DAY UPDATE LOL 1 WEEK LATER
+- 3 New songs by Kawaisprite!
+- COOL CUTSCENES
+- WEEK 6 YOYOYOYOY
+- Swaggy pixel art by Moawling!
+### Changed
+- Made it so you lose sliiiightly more health when you miss a note.
+- Removed the default HaxeFlixel pause screen when the game window loses focus, can get screenshots of the game easier hehehe
+### Fixed
+- Idle animation bug with BF christmas and BF hair blow sprites ([Thanks to Injourn for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/237))
 
-WARNING: This engine is still very early in development! You can request new features though
-_____________________________________
+## [0.2.6] - 2021-01-20
+### Added
+- 3 NEW CHRISTMAS SONGS. 2 BY KAWAISPRITE, 1 BY BASSETFILMS!!!!! BF WITH DRIP! SANTA HANGIN OUT!
+- Enemy icons change when they you are winning a lot ([Thanks to pahaze for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/138))
+- Holding CTRL in charting editor places notes on both sides
+- Q and E changes sustain lengths in note editor
+- Other charting editor workflow improvements
+- More hair physics
+- Heads appear at top of chart editor to help show which side ur charting for
+### Changed
+- Tweaked code relating to inputs, hopefully making notes that are close together more fair to hit
+### Removed
+- Removed APE
+### Fixed
+- Maybe fixed double notes / jump notes. Need to tweak it for balance, but should open things up for cooler charts in the future.
+- Old Verison popup screen weirdness ([Thanks to gedehari for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/155))
+- Song no longer loops when finishing the song. ([Thanks Injourn for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/132))
+- Screen wipe being cut off in the limo/mom stage. Should fill the whole screen now.
+- Boyfriend animations on hold notes, and pressing on repeating notes should behave differently
 
-# Features
+## [0.2.5] - 2020-12-27
+### Added
+- MOMMY GF, 3 NEW ASS SONGS BY KAWAISPRITE, NEW ART BY PHANTOMARCADE,WOOOOOOAH!!!!
+- Different icons depending on which character you are against, art by EVILSK8R!!
+- Autosave to chart editor
+- Clear section button to note editor
+- Swap button in note editor
+- a new boot text or two
+- automatic check for when you're on an old version of the game! 
+### Changed
+- Made Spookeez on Normal easier.
+- Mouse is now visible in note editor
+### Fixed
+- Crash when playing Week 3 and then playing a non-week 3 song
+- When pausing music at the start, it doesn't continue the song anyways. ([shoutouts gedehari for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/48))
+- IDK i think backing out of song menu should play main menu songs again hehe ([shoutouts gedehari for the Pull Request!](https://github.com/ninjamuffin99/Funkin/pull/48))
 
-## Attractive animated dialogue boxes:
+## [0.2.4] - 2020-12-11
+### Added
+- 3 NEW SONGS BY KAWAISPRITE. Pico, Philly, and Blammed.
+- NEW CHARACTER, PICO. Based off the classic Flash game "Pico's School" by Tom Fulp
+- NEW LEVEL WOW! PHILLY BABEEEE
+### Changed
+- Made it less punishing to ATTEMPT to hit a note and miss, rather than let it pass you
+### Fixed
+- Song desync of you paused and unpaused frequently ([shoutouts SonicBlam](https://github.com/ninjamuffin99/Funkin/issues/37))
+- Animation offsets when GF is scared
 
-![](https://user-images.githubusercontent.com/44785097/127706669-71cd5cdb-5c2a-4ecc-871b-98a276ae8070.gif)
+## [0.2.3] - 2020-12-04
+### Added
+- More intro texts
+### Fixed
+- Exploit where you could potentially give yourself a high score via the debug menu
+- Issue/bug where you could spam the confirm button on the story menu ([shoutouts lotusotho for the CODE contribution/pull request!](https://github.com/ninjamuffin99/Funkin/pull/19))
+- Glitch where if you never would lose health if you missed a note on a fast song (shoutouts [MrDulfin](https://github.com/ninjamuffin99/Funkin/issues/10), [HotSauceBurritos](https://github.com/ninjamuffin99/Funkin/issues/13) and [LobsterMango](https://lobstermango.newgrounds.com))
+- Fixed tiny note bleed over thingies (shoutouts [lotusotho](https://github.com/ninjamuffin99/Funkin/pull/24))
 
+## [0.2.2] - 2020-11-20
+### Added
+- Music playing on the freeplay menu.
+- UI sounds on freeplay menu
+- Score now shows mid-song.
+- Menu on pause screen! Can resume, and restart song, or go back to main menu.
+- New music made for pause menu!
 
-## Atleast one change to every week:
-### Week 1:
-  * New Dad Left sing sprite 
-  * Unused stage lights are now used
-### Week 2:
-  * Both BF and Skid & Pump does "Hey!" animations
-  * Thunders does a quick light flash and zooms the camera in slightly
-  * Added a quick transition/cutscene to Monster
-### Week 3:
-  * BF does "Hey!" during Philly Nice
-  * Blammed has a cool new colors flash during that sick part of the song
-### Week 4:
-  * Better hair physics for Mom/Boyfriend (Maybe even slightly better than Week 7's :eyes:)
-  * Henchmen die during all songs. Yeah :(
-### Week 5:
-  * Bottom Boppers and GF does "Hey!" animations during Cocoa and Eggnog
-  * On Winter Horrorland, GF bops her head slower in some parts of the song.
-### Week 6:
-  * On Thorns, the HUD is hidden during the cutscene
-  * Also there's the Background girls being spooky during the "Hey!" parts of the Instrumental
+### Changed
+- Moved all the intro texts to its own txt file instead of being hardcoded, this allows for much easier customization. File is in the data folder, called "introText.txt", follow the format in there and you're probably good to go!
+### Fixed
+- Fixed soft lock when pausing on song finish ([shoutouts gedehari](https://github.com/ninjamuffin99/Funkin/issues/15))
+- Think I fixed issue that led to in-game scores being off by 2 ([shoutouts Mike](https://github.com/ninjamuffin99/Funkin/issues/4))
+- Should have fixed the 1 frame note appearance thing. ([shoutouts Mike](https://github.com/ninjamuffin99/Funkin/issues/6))
+- Cleaned up some charting on South on hard mode
+- Fixed some animation timings, should feel both better to play, and watch. (shoutouts Dave/Ivan lol)
+- Animation issue where GF would freak out on the title screen if you returned to it([shoutouts MultiXIII](https://github.com/ninjamuffin99/Funkin/issues/12)).
 
-## Cool new Chart Editor changes and countless bug fixes
-![](https://i.imgur.com/h6Ja7eT.png)
-* You can now chart "Event" notes, which are bookmarks that trigger specific actions that usually were hardcoded on the vanilla version of the game.
-* Your song's BPM can now have decimal values
-* You can manually adjust a Note's strum time if you're really going for milisecond precision
-* You can change a note's type on the Editor, it comes with two example types:
-  * Alt Animation: Forces an alt animation to play, useful for songs like Ugh/Stress
-  * Hey: Forces a "Hey" animation instead of the base Sing animation, if Boyfriend hits this note, Girlfriend will do a "Hey!" too.
+## [0.2.1.2] - 2020-11-06
+### Fixed
+- Story mode scores not properly resetting, leading to VERY inflated highscores on the leaderboards. This also requires me to clear the scores that are on the leaderboard right now, sorry!
+- Difficulty on storymode and in freeplay scores
+- Hard mode difficulty on campaign levels have been fixed
 
-## Improved Animation Debug menu (Press 8 in-game on a Debug build)
-![](https://user-images.githubusercontent.com/44785097/127721062-f912853c-2513-41b8-bd66-fd80d9d4ee0f.png)
-* You can now press Save Offsets to save a .txt file with the editted offsets
-* You can also now change the characters while on the Menu
-* Go back to the game by pressing Escape
-NOTE: This should be used for fixing your character floating or being slightly under the ground! It's not for texture editting.
+## [0.2.1.1] - 2020-11-06
+### Fixed
+- Week 2 not unlocking properly
 
-## Story mode menu rework:
-![](https://i.imgur.com/UB2EKpV.png)
-* Added a different BG to every song (less Tutorial)
-* All menu characters are now in individual spritesheets, makes modding it easier.
+## [0.2.1] - 2020-11-06
+### Added
+- Scores to the freeplay menu
+- A few new intro boot messages.
+- Lightning effect in Spooky stages
+- Campaign scores, can now compete on scoreboards for campaign!
+- Can now change difficulties in Freeplay mode
 
-## Credits menu
-![](https://i.imgur.com/NdIQt3d.png)
-* You can add a head icon, name, description and a Redirect link for when the player presses Enter while the item is currently selected.
+### Changed
+- Balanced out Normal mode for the harder songs(Dadbattle and Spookeez, not South yet). Should be much easier all around.
+- Put tutorial in it's own 'week', so that if you want to play week 1, you don't have to play the tutorial.
 
-## Awards/Achievements
-* The engine comes with 16 example achievements that you can mess with and learn how it works (Check Achievements.hx and search for "checkForAchievement" on PlayState.hx)
+### Fixed
+- One of the charting bits on South and Spookeez during the intro.
 
-## Options menu:
-* You can change Note colors, Controls and Preferences there.
- * On Preferences you can toggle Downscroll, Anti-Aliasing, Framerate, Low Quality, Note Splashes, Hide Hud elements, Flashing Lights, etc.
+## [0.2.0] - 2020-11-01
+### Added
+- Uhh Newgrounds release lolol I always lose track of shit.
 
-## Other gameplay features:
-* When the enemy hits a note, it plays the note hit animation on their strum, just like when the player hits a note.
-* Lag doesn't impact the camera movement and player icon scaling anymore.
-* Some stuff based on Week 7's changes has been put in (Background colors on Freeplay, Note splashes)
-* You can reset your Score on Freeplay/Story Mode by pressing Reset button.
-* You can listen to a song on Freeplay by pressing Space once.
+## [0.1.0] - 2020-10-05
+### Added
+- Uh, everything. This the game's initial gamejam release. We put it out
