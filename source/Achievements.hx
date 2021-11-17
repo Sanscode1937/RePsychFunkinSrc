@@ -1,11 +1,11 @@
+import flixel.FlxCamera;
 import flixel.FlxG;
 import flixel.FlxSprite;
-import flixel.FlxCamera;
+import flixel.group.FlxSpriteGroup;
+import flixel.text.FlxText;
 import flixel.tweens.FlxEase;
 import flixel.tweens.FlxTween;
-import flixel.group.FlxSpriteGroup;
 import flixel.util.FlxColor;
-import flixel.text.FlxText;
 
 using StringTools;
 
