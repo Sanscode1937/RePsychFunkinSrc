@@ -24,6 +24,7 @@ class ClientPrefs {
 	public static var imagesPersist:Bool = false;
 	public static var ghostTapping:Bool = true;
 	public static var hideTime:Bool = false;
+	public static var cutscenesensored:Bool = false;
 
 	//Every key has two binds, these binds are defined on defaultKeys! If you want your control to be changeable, you have to add it on ControlsSubState (inside OptionsState.hx)'s list
 	public static var keyBinds:Map<String, Dynamic> = new Map<String, Dynamic>();
@@ -68,6 +69,7 @@ class ClientPrefs {
 		FlxG.save.data.arrowHSV = arrowHSV;
 		FlxG.save.data.imagesPersist = imagesPersist;
 		FlxG.save.data.ghostTapping = ghostTapping;
+		FlxG.save.data.cutscenesensored = cutscenesensored;
 		FlxG.save.data.hideTime = hideTime;
 		FlxG.save.data.achievementsMap = Achievements.achievementsMap;
 		FlxG.save.data.henchmenDeath = Achievements.henchmenDeath;
@@ -143,6 +145,9 @@ class ClientPrefs {
 		if(FlxG.save.data.hideTime != null) {
 			hideTime = FlxG.save.data.hideTime;
 		}
+		if(FlxG.save.data.cutscenesensored != null) {
+			cutscenesensored = FlxG.save.data.cutscenesensored;
+		}		
 
 		var save:FlxSave = new FlxSave();
 		save.bind('controls_v2', 'ninjamuffin99');

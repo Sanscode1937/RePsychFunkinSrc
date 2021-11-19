@@ -24,6 +24,7 @@ import flixel.util.FlxTimer;
 import flixel.input.keyboard.FlxKey;
 import flixel.graphics.FlxGraphic;
 import Controls;
+import PlayState;
 
 using StringTools;
 
@@ -37,7 +38,7 @@ class OptionsState extends MusicBeatState
 
 	override function create() {
 		#if desktop
-		DiscordClient.changePresence("Options Menu", null);
+		DiscordClient.changePresence("On Options", null);
 		#end
 
 		menuBG = new FlxSprite().loadGraphic(Paths.image('menuDesat'));
@@ -726,6 +727,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 		'Ghost Tapping',
 		'Note Delay',
 		'Note Splashes',
+		// 'Cutscene Censored',
 		'Hide HUD',
 		'Hide Song Length',
 		'Flashing Lights',
@@ -887,6 +889,9 @@ class PreferencesSubstate extends MusicBeatSubstate
 					case 'Note Splashes':
 						ClientPrefs.noteSplashes = !ClientPrefs.noteSplashes;
 
+					// case 'Cutscene Censored':
+					// 	ClientPrefs.noteSplashes = !ClientPrefs.cutscenesensored;						
+
 					case 'Flashing Lights':
 						ClientPrefs.flashing = !ClientPrefs.flashing;
 
@@ -938,6 +943,13 @@ class PreferencesSubstate extends MusicBeatSubstate
 							FlxG.drawFramerate = ClientPrefs.framerate;
 							FlxG.updateFramerate = ClientPrefs.framerate;
 						}
+					// case 'Cutscene Censored':
+					// 	if (PlayState.SONG.song.toLowerCase()=='stress')
+					// 	{
+					// 		FlxG.sound.play(Paths.sound('song3censor', 'week7'));
+					// 		ClientPrefs.cutscenesensored;
+					// 	}	
+
 					case 'Note Delay':
 						var mult:Int = 1;
 						if(holdTime > 1.5) { //Double speed after 1.5 seconds holding
@@ -984,6 +996,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 				daText = "Changes how late a note is spawned.\nUseful for preventing audio lag from wireless earphones.";
 			case 'FPS Counter':
 				daText = "If unchecked, hides FPS Counter.";
+			// case 'Cutscene Censored':
+			// 	daText = "Cesored rude word on week7 cutscene";
 			case 'Low Quality':
 				daText = "If checked, disables some background details,\ndecreases loading times and improves performance.";
 			case 'Persistent Cached Data':
@@ -1060,6 +1074,8 @@ class PreferencesSubstate extends MusicBeatSubstate
 						daValue = ClientPrefs.lowQuality;
 					case 'Anti-Aliasing':
 						daValue = ClientPrefs.globalAntialiasing;
+					// case 'Cutscene Censored':
+					// 	daValue = ClientPrefs.cutscenesensored;						
 					case 'Note Splashes':
 						daValue = ClientPrefs.noteSplashes;
 					case 'Flashing Lights':

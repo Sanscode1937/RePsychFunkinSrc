@@ -3222,6 +3222,12 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
+					switch(curSong.toLowerCase()){
+						case 'stress':
+							startVideo('kickStarter');
+							paused = true;
+					}
+
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
 					cancelFadeTween();
