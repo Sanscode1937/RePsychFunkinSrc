@@ -1,50 +1,55 @@
 {
 	"song": {
+		"speed": 2.6,
+		"stage": "tank2",
 		"player1": "bf-holding-gf",
 		"player2": "tankman",
+		"player3": "picospeaker",
 		"notes": [
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						0,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						168.539325842697,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						252.808988764045,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						337.078651685393,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						505.61797752809,
+						168.539325842697,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						674.157303370787,
+						252.808988764045,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						337.078651685393,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						505.61797752809,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						674.157303370787,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -58,21 +63,21 @@
 					[
 						842.696629213483,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						1011.23595505618,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						1179.77528089888,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -84,43 +89,54 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						1516.85393258427,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						1601.12359550562,
+						1348.31460674157,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						1685.39325842697,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						1853.93258426966,
+						1516.85393258427,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						2022.47191011236,
+						1601.12359550562,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						1685.39325842697,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						1853.93258426966,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						2022.47191011236,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -134,69 +150,66 @@
 					[
 						2191.01123595506,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						2359.55056179775,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						1348.31460674157,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						2696.62921348315,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						2865.16853932584,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						2949.43820224719,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						3033.70786516854,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						3202.24719101124,
+						2865.16853932584,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						3370.78651685393,
+						2949.43820224719,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						3033.70786516854,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						3202.24719101124,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						3370.78651685393,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -210,21 +223,21 @@
 					[
 						3539.32584269663,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						3707.86516853933,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						3876.40449438202,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -236,43 +249,54 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						4213.48314606742,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						4297.75280898876,
+						4044.94382022472,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						4382.02247191011,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						4550.56179775281,
+						4213.48314606742,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						4719.10112359551,
+						4297.75280898876,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						4382.02247191011,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						4550.56179775281,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						4719.10112359551,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -286,90 +310,87 @@
 					[
 						4887.6404494382,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						5056.1797752809,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						4044.94382022472,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						5140.44943820225,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						5224.7191011236,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						5308.98876404494,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						5393.25842696629,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						5561.79775280899,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						5646.06741573034,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						5730.33707865169,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						5898.87640449438,
+						5561.79775280899,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						6067.41573033708,
+						5646.06741573034,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						5730.33707865169,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						5898.87640449438,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						6067.41573033708,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -383,21 +404,21 @@
 					[
 						6235.95505617978,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						6404.49438202247,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						6573.03370786517,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -409,43 +430,54 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						6910.11235955056,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						6994.38202247191,
+						6741.57303370786,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						7078.65168539326,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						7247.19101123595,
+						6910.11235955056,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						7415.73033707865,
+						6994.38202247191,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						7078.65168539326,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						7247.19101123595,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						7415.73033707865,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -459,69 +491,66 @@
 					[
 						7584.26966292135,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						7752.80898876405,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						6741.57303370786,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						8089.88764044944,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						8258.42696629213,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						8342.69662921348,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						8426.96629213483,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						8595.50561797753,
+						8258.42696629213,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						8764.04494382022,
+						8342.69662921348,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						8426.96629213483,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						8595.50561797753,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						8764.04494382022,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -535,21 +564,21 @@
 					[
 						8932.58426966292,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						9101.12359550562,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						9269.66292134831,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -561,43 +590,54 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						9606.74157303371,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						9691.01123595505,
+						9438.20224719101,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						9775.2808988764,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						9943.8202247191,
+						9606.74157303371,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						10112.3595505618,
+						9691.01123595505,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						9775.2808988764,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						9943.8202247191,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						10112.3595505618,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -611,404 +651,342 @@
 					[
 						10280.8988764045,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						10449.4382022472,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						9438.20224719101,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
+					[
+						11797.7528089888,
+						-1,
+						"Play Animation",
+						"shoot3-loop",
+						"GF"
+					],
+					[
+						11460.6741573034,
+						-1,
+						"Play Animation",
+						"shoot3-loop",
+						"GF"
+					],
+					[
+						11123.595505618,
+						-1,
+						"Play Animation",
+						"shoot3-loop",
+						"GF"
+					],
 					[
 						10786.5168539326,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						11039.3258426966,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						11376.404494382,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						11713.4831460674,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						12050.5617977528,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						12387.6404494382,
+						13146.0674157303,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						12724.7191011236,
+						12808.9887640449,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						13061.797752809,
+						12471.9101123596,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						13398.8764044944,
+						12134.8314606742,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						13735.9550561798,
+						14494.3820224719,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						14073.0337078652,
+						14157.3033707865,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						14410.1123595506,
+						13820.2247191011,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						14747.191011236,
+						13483.1460674157,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						13735.9550561798,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						14073.0337078652,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						14410.1123595506,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						14747.191011236,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						15084.2696629213,
+						15842.6966292135,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						15421.3483146067,
+						15505.6179775281,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						15758.4269662921,
+						15168.5393258427,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						16095.5056179775,
+						14831.4606741573,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						15084.2696629213,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						15421.3483146067,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						15758.4269662921,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						16095.5056179775,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						16432.5842696629,
+						17191.0112359551,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						16769.6629213483,
+						16853.9325842697,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						17106.7415730337,
+						16516.8539325843,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						17443.8202247191,
+						16179.7752808989,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						16432.5842696629,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						16769.6629213483,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						17106.7415730337,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
-						"GF"
-					],
-					[
-						17443.8202247191,
-						-1,
-						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						17780.8988764045,
+						18539.3258426966,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						18117.9775280899,
+						18202.2471910112,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						18455.0561797753,
+						17865.1685393258,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						18792.1348314607,
+						17528.0898876404,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						19129.2134831461,
+						19887.6404494382,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						19466.2921348315,
+						19550.5617977528,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						19803.3707865169,
+						19213.4831460674,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						20140.4494382022,
+						18876.404494382,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						20477.5280898876,
+						21235.9550561798,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						20814.606741573,
+						20898.8764044944,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						21151.6853932584,
+						20561.797752809,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					],
 					[
-						21488.7640449438,
+						20224.7191011236,
 						-1,
 						"Play Animation",
-						"shoot2-loop",
+						"shoot3-loop",
 						"GF"
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						21573.0337078652,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						21910.1123595506,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1022,15 +1000,19 @@
 					[
 						22584.2696629213,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						22921.3483146067,
@@ -1056,27 +1038,31 @@
 					[
 						23932.5842696629,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						24269.6629213483,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						24606.7415730337,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1090,15 +1076,19 @@
 					[
 						25280.8988764045,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						25617.9775280899,
@@ -1124,27 +1114,31 @@
 					[
 						26629.2134831461,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						26966.2921348315,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						27303.3707865169,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1158,15 +1152,47 @@
 					[
 						27977.5280898876,
 						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						27471.9101123596,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						27134.8314606742,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						27808.9887640449,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						28146.0674157303,
+						-1,
 						"picospeakershoot4",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						28314.606741573,
@@ -1192,27 +1218,59 @@
 					[
 						29325.8426966292,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
+						""
+					],
+					[
+						28483.1460674157,
+						-1,
+						"picospeakershoot4",
+						"shoot3-loop",
+						""
+					],
+					[
+						28820.2247191011,
+						-1,
+						"picospeakershoot4",
+						"shoot3-loop",
+						""
+					],
+					[
+						29157.3033707865,
+						-1,
+						"picospeakershoot1",
+						"shoot3-loop",
+						""
+					],
+					[
+						29494.3820224719,
+						-1,
+						"picospeakershoot1",
+						"shoot3-loop",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						29662.9213483146,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						30000,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1226,15 +1284,47 @@
 					[
 						30674.1573033708,
 						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						30168.5393258427,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						29831.4606741573,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						30505.6179775281,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						30842.6966292135,
+						-1,
 						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						31011.2359550562,
@@ -1260,46 +1350,50 @@
 					[
 						32022.4719101124,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						32106.7415730337,
+						31853.9325842697,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot1",
 						"",
 						""
 					],
 					[
 						32191.0112359551,
 						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						31516.8539325843,
+						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						32275.2808988764,
+						31179.7752808989,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						32359.5505617978,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						33202.2471910112,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1313,17 +1407,28 @@
 						""
 					],
 					[
-						33370.7865168539,
+						33202.2471910112,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
+					],
+					[
+						33370.7865168539,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						33707.8651685393,
@@ -1335,7 +1440,7 @@
 					[
 						34044.9438202247,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1349,25 +1454,22 @@
 					[
 						34719.1011235955,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						35056.1797752809,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						35898.8764044944,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1381,17 +1483,28 @@
 						""
 					],
 					[
-						36067.4157303371,
+						35898.8764044944,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
+					],
+					[
+						36067.4157303371,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						36404.4943820225,
@@ -1403,7 +1516,7 @@
 					[
 						36741.5730337079,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1417,25 +1530,22 @@
 					[
 						37415.7303370787,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						37752.808988764,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						38595.5056179775,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1449,17 +1559,28 @@
 						""
 					],
 					[
-						38764.0449438202,
+						38595.5056179775,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
+					],
+					[
+						38764.0449438202,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						39101.1235955056,
@@ -1471,7 +1592,7 @@
 					[
 						39438.202247191,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1485,25 +1606,22 @@
 					[
 						40112.3595505618,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						40449.4382022472,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						41292.1348314607,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1517,29 +1635,47 @@
 						""
 					],
 					[
-						41460.6741573034,
+						41292.1348314607,
 						-1,
 						"picospeakershoot2",
-						"",
-						""
-					]
-				],
-				"mustHitSection": true
-			},
-			{
-				"lengthInSteps": 16,
-				"sectionNotes": [
-					[
-						41797.7528089888,
-						-1,
-						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						42134.8314606742,
+						41460.6741573034,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
+						"",
+						""
+					]
+				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						41797.7528089888,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						42050.5617977528,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						42471.9101123596,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -1553,25 +1689,29 @@
 					[
 						42808.9887640449,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					]
-				],
-				"mustHitSection": true
-			},
-			{
-				"lengthInSteps": 16,
-				"sectionNotes": [
-					[
-						43146.0674157303,
-						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						43988.7640449438,
+						42977.5280898876,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					]
+				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						43146.0674157303,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1585,17 +1725,28 @@
 						""
 					],
 					[
-						44157.3033707865,
+						43988.7640449438,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
+					],
+					[
+						44157.3033707865,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						44494.3820224719,
@@ -1607,7 +1758,7 @@
 					[
 						44831.4606741573,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1621,25 +1772,22 @@
 					[
 						45505.6179775281,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						45842.6966292135,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						46685.393258427,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1653,17 +1801,28 @@
 						""
 					],
 					[
-						46853.9325842697,
+						46685.393258427,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
+					],
+					[
+						46853.9325842697,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						47191.0112359551,
@@ -1675,7 +1834,7 @@
 					[
 						47528.0898876404,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1689,25 +1848,22 @@
 					[
 						48202.2471910112,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						48539.3258426966,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						49382.0224719101,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1721,17 +1877,28 @@
 						""
 					],
 					[
-						49550.5617977528,
+						49382.0224719101,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
+					],
+					[
+						49550.5617977528,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						49887.6404494382,
@@ -1743,7 +1910,7 @@
 					[
 						50224.7191011236,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1757,25 +1924,22 @@
 					[
 						50898.8764044944,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						51235.9550561798,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						52078.6516853933,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -1789,29 +1953,47 @@
 						""
 					],
 					[
-						52247.1910112359,
+						52078.6516853933,
 						-1,
 						"picospeakershoot2",
-						"",
-						""
-					]
-				],
-				"mustHitSection": true
-			},
-			{
-				"lengthInSteps": 16,
-				"sectionNotes": [
-					[
-						52584.2696629213,
-						-1,
-						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						52921.3483146067,
+						52247.1910112359,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
+						"",
+						""
+					]
+				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						52584.2696629213,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						52837.0786516854,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						53258.4269662921,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -1825,55 +2007,66 @@
 					[
 						53595.5056179775,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						53764.0449438202,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						53932.5842696629,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						54101.1235955056,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						54185.393258427,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						54269.6629213483,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						54438.202247191,
+						54101.1235955056,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						54606.7415730337,
+						54185.393258427,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						54269.6629213483,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						54438.202247191,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						54606.7415730337,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1887,21 +2080,21 @@
 					[
 						54775.2808988764,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						54943.8202247191,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						55112.3595505618,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -1913,43 +2106,54 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						55449.4382022472,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						55533.7078651685,
+						55280.8988764045,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						55617.9775280899,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						55786.5168539326,
+						55449.4382022472,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						55955.0561797753,
+						55533.7078651685,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						55617.9775280899,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						55786.5168539326,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						55955.0561797753,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -1963,69 +2167,80 @@
 					[
 						56123.595505618,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						56292.1348314607,
 						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						56460.6741573034,
+						-1,
 						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						55280.8988764045,
+						56544.9438202247,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						56629.2134831461,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						56797.7528089888,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						56882.0224719101,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						56966.2921348315,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						57134.8314606742,
+						56797.7528089888,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						57303.3707865169,
+						56882.0224719101,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						56966.2921348315,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						57134.8314606742,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						57303.3707865169,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -2039,21 +2254,21 @@
 					[
 						57471.9101123595,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						57640.4494382022,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						57808.9887640449,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -2065,43 +2280,54 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						58146.0674157303,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						58230.3370786517,
+						57977.5280898876,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						58314.606741573,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						58483.1460674157,
+						58146.0674157303,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						58651.6853932584,
+						58230.3370786517,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						58314.606741573,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						58483.1460674157,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						58651.6853932584,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -2115,90 +2341,87 @@
 					[
 						58820.2247191011,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						58988.7640449438,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						57977.5280898876,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						59073.0337078652,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						59157.3033707865,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						59241.5730337079,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						59325.8426966292,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						59494.3820224719,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						59578.6516853933,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						59662.9213483146,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						59831.4606741573,
+						59494.3820224719,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						60000,
+						59578.6516853933,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						59662.9213483146,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						59831.4606741573,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						60000,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -2212,21 +2435,21 @@
 					[
 						60168.5393258427,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						60337.0786516854,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						60505.6179775281,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -2238,43 +2461,54 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						60842.6966292135,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						60926.9662921348,
+						60674.1573033708,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						61011.2359550562,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						61179.7752808989,
+						60842.6966292135,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						61348.3146067416,
+						60926.9662921348,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						61011.2359550562,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						61179.7752808989,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						61348.3146067416,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -2288,76 +2522,66 @@
 					[
 						61516.8539325843,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						61685.393258427,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						60674.1573033708,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						62022.4719101124,
-						-1,
-						"Play Animation",
-						"HPG",
-						"Dad"
-					],
-					[
-						62022.4719101124,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						62191.0112359551,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						62275.2808988764,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						62359.5505617977,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						62528.0898876404,
+						62191.0112359551,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						62696.6292134831,
+						62275.2808988764,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						62359.5505617977,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						62528.0898876404,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						62696.6292134831,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -2371,21 +2595,21 @@
 					[
 						62865.1685393258,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						63033.7078651685,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						63202.2471910112,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -2397,44 +2621,54 @@
 						""
 					]
 				],
-				"altAnim": true,
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						63539.3258426966,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						63623.595505618,
+						63370.7865168539,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						63707.8651685393,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						63876.404494382,
+						63539.3258426966,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						64044.9438202247,
+						63623.595505618,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						63707.8651685393,
 						-1,
 						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						63876.404494382,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						64044.9438202247,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -2448,29 +2682,26 @@
 					[
 						64213.4831460674,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						64382.0224719101,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						63370.7865168539,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						64719.1011235955,
@@ -2489,41 +2720,45 @@
 					[
 						65393.2584269663,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						65730.3370786517,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						66067.4157303371,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						66404.4943820225,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						66741.5730337079,
+						66404.4943820225,
 						-1,
 						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						66741.5730337079,
+						-1,
+						"picospeakershoot3",
 						"",
 						""
 					],
@@ -2535,10 +2770,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						67415.7303370787,
@@ -2555,99 +2794,47 @@
 						""
 					],
 					[
-						68089.8876404495,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						68426.9662921348,
+						68089.8876404494,
 						-1,
 						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						67415.7303370787,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						67752.8089887641,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						68089.8876404495,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
 						68426.9662921348,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						68764.0449438202,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot1",
 						"",
 						""
 					],
 					[
 						69101.1235955056,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						69438.202247191,
-						-1,
 						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						69775.2808988764,
+						69438.202247191,
 						-1,
 						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						68764.0449438202,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						69101.1235955056,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						69438.202247191,
-						-1,
-						"picospeakershoot2",
 						"",
 						""
 					],
@@ -2659,10 +2846,14 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						70112.3595505618,
@@ -2681,50 +2872,54 @@
 					[
 						70786.5168539326,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						71123.595505618,
 						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						70617.9775280899,
+						-1,
 						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						70112.3595505618,
+						70280.8988764045,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						70955.0561797753,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						70449.4382022472,
+						71292.1348314607,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						70786.5168539326,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						71123.595505618,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						71460.6741573034,
@@ -2741,173 +2936,167 @@
 						""
 					],
 					[
-						72134.8314606742,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						72471.9101123596,
+						72134.8314606741,
 						-1,
 						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						71460.6741573034,
+						72471.9101123595,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						71966.2921348315,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						71629.2134831461,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						72303.3707865169,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						71797.7528089888,
+						72640.4494382023,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						72134.8314606742,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						72471.9101123596,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						72808.988764045,
+						72808.9887640449,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						73146.0674157304,
+						73146.0674157303,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						73483.1460674158,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						73820.2247191012,
+						73483.1460674157,
 						-1,
 						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						72808.988764045,
+						73820.2247191011,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						73314.606741573,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						72977.5280898876,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						73651.6853932584,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						73146.0674157304,
+						73988.7640449438,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						73483.1460674158,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						73820.2247191012,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						74157.3033707866,
+						74157.3033707865,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						74494.382022472,
+						74494.3820224719,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						74831.4606741574,
+						74831.4606741573,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						75168.5393258427,
 						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						74662.9213483146,
+						-1,
 						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						74157.3033707866,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						74494.382022472,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						74831.4606741574,
+						74325.8426966292,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						75168.5393258427,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						75252.8089887641,
+						75000,
 						-1,
 						"picospeakershoot4",
 						"",
@@ -2916,60 +3105,36 @@
 					[
 						75337.0786516854,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						75421.3483146068,
-						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						75505.6179775281,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						75589.8876404495,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						75842.6966292135,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						75926.9662921349,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						76179.7752808989,
+						75842.6966292135,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						76264.0449438203,
+						76179.7752808989,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -2981,57 +3146,33 @@
 						"picospeakershoot3",
 						"",
 						""
-					],
-					[
-						76601.1235955057,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						76853.9325842697,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						76938.2022471911,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						77191.0112359551,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						77275.2808988765,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						77528.0898876405,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						77612.3595505618,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3045,69 +3186,38 @@
 						""
 					],
 					[
-						77949.4382022472,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
 						78033.7078651686,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						78117.9775280899,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						78202.2471910113,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						78286.5168539326,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						78539.3258426967,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						78623.595505618,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						78876.4044943821,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						78960.6741573034,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3117,115 +3227,35 @@
 						79213.4831460675,
 						-1,
 						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						79297.7528089888,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						78202.2471910113,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						78286.5168539326,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						78539.3258426967,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						78623.595505618,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						78876.4044943821,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						78960.6741573034,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						79213.4831460675,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						79297.7528089888,
-						-1,
-						"picospeakershoot4",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						79550.5617977529,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						79634.8314606742,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						79887.6404494383,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						79971.9101123596,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						80224.7191011236,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						80308.988764045,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3239,69 +3269,66 @@
 						""
 					],
 					[
-						80646.0674157304,
+						80730.3370786517,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						80308.988764045,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						80393.2584269664,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						80730.3370786517,
+						80829.3539325843,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						80814.6067415731,
+						80812.5000000001,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						80898.8764044944,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						80983.1460674158,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						81235.9550561798,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						81320.2247191012,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						81573.0337078652,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						81657.3033707866,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3311,115 +3338,35 @@
 						81910.1123595506,
 						-1,
 						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						81994.382022472,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						80898.8764044944,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						80983.1460674158,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						81235.9550561798,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						81320.2247191012,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						81573.0337078652,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						81657.3033707866,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						81910.1123595506,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						81994.382022472,
-						-1,
-						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						82247.191011236,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						82331.4606741574,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						82584.2696629214,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						82668.5393258428,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						82921.3483146068,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						83005.6179775281,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3435,46 +3382,36 @@
 					[
 						83426.9662921349,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						83595.5056179776,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						83932.584269663,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						84016.8539325843,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						84269.6629213484,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						84353.9325842697,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3484,115 +3421,42 @@
 						84606.7415730338,
 						-1,
 						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						84691.0112359551,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						83595.5056179776,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						83932.584269663,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						84016.8539325843,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						84269.6629213484,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						84353.9325842697,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						84606.7415730338,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						84691.0112359551,
-						-1,
-						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						83764.0449438203,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						84943.8202247192,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						85028.0898876405,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						85280.8988764045,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						85365.1685393259,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						85617.9775280899,
+						85280.8988764045,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						85702.2471910113,
+						85617.9775280899,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -3608,29 +3472,54 @@
 					[
 						86123.595505618,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						85702.2471910113,
+						-1,
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						85786.5168539327,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						85870.786516854,
+						86222.6123595506,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						86205.7584269664,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						86039.3258426967,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						86292.1348314607,
@@ -3642,39 +3531,36 @@
 					[
 						86629.2134831461,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						87134.8314606741,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						87303.3707865169,
+						87303.3707865168,
 						-1,
 						"picospeakershoot3",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						87640.4494382023,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						88483.1460674157,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -3683,7 +3569,14 @@
 					[
 						87977.5280898876,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						88483.1460674157,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -3695,10 +3588,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						88988.7640449438,
@@ -3710,14 +3607,14 @@
 					[
 						89325.8426966292,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						89831.4606741573,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -3729,20 +3626,17 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						90337.0786516854,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						91179.7752808989,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -3751,7 +3645,14 @@
 					[
 						90674.1573033708,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						91179.7752808989,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -3763,10 +3664,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						91685.393258427,
@@ -3778,14 +3683,14 @@
 					[
 						92022.4719101124,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						92528.0898876404,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -3797,20 +3702,17 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						93033.7078651685,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						93876.404494382,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -3819,7 +3721,14 @@
 					[
 						93370.7865168539,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						93876.404494382,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -3831,10 +3740,14 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						94382.0224719101,
@@ -3846,14 +3759,14 @@
 					[
 						94719.1011235955,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						95224.7191011236,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -3865,20 +3778,17 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						95730.3370786517,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						96573.0337078652,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -3887,22 +3797,47 @@
 					[
 						96067.4157303371,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						96741.5730337079,
+						96573.0337078652,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						96404.4943820226,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						96741.573033708,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						96910.1123595507,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						97078.6516853933,
@@ -3914,14 +3849,14 @@
 					[
 						97415.7303370787,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						97921.3483146067,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -3933,20 +3868,17 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						98426.9662921348,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						99269.6629213483,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -3955,7 +3887,14 @@
 					[
 						98764.0449438202,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						99269.6629213483,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -3967,10 +3906,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						99775.2808988764,
@@ -3982,14 +3925,14 @@
 					[
 						100112.359550562,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						100617.97752809,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4001,20 +3944,17 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						101123.595505618,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						101966.292134831,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -4023,7 +3963,14 @@
 					[
 						101460.674157303,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						101966.292134831,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -4035,10 +3982,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						102471.91011236,
@@ -4050,14 +4001,14 @@
 					[
 						102808.988764045,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						103314.606741573,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4069,20 +4020,17 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						103820.224719101,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						104662.921348315,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -4091,7 +4039,14 @@
 					[
 						104157.303370787,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						104662.921348315,
+						-1,
+						"picospeakershoot4",
 						"",
 						""
 					],
@@ -4103,10 +4058,14 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						105168.539325843,
@@ -4118,14 +4077,14 @@
 					[
 						105505.617977528,
 						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						106011.235955056,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4137,20 +4096,17 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						106516.853932584,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						107359.550561798,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -4159,26 +4115,12 @@
 					[
 						106853.93258427,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						107528.08988764,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						106685.393258427,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						107022.471910113,
+						107359.550561798,
 						-1,
 						"picospeakershoot4",
 						"",
@@ -4192,17 +4134,42 @@
 						""
 					],
 					[
-						107696.629213483,
+						107528.089887641,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
+					],
+					[
+						107696.629213483,
+						-1,
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						106685.393258427,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
+					],
+					[
+						107022.471910113,
+						-1,
+						"picospeakershoot4",
+						"",
+						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						107865.168539326,
@@ -4214,7 +4181,7 @@
 					[
 						108202.247191011,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4233,10 +4200,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						109213.483146067,
@@ -4248,7 +4219,7 @@
 					[
 						109550.561797753,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4267,45 +4238,21 @@
 						""
 					],
 					[
-						109213.483146067,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						109550.561797753,
+						110393.258426966,
 						-1,
 						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						109887.640449438,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						110224.719101124,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						110393.258426967,
-						-1,
-						"picospeakershoot4",
 						"",
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						110561.797752809,
@@ -4317,35 +4264,7 @@
 					[
 						110898.876404494,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						111235.95505618,
-						-1,
 						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						111573.033707865,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						110561.797752809,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						110898.876404494,
-						-1,
-						"picospeakershoot1",
 						"",
 						""
 					],
@@ -4371,10 +4290,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						111910.112359551,
@@ -4386,35 +4309,7 @@
 					[
 						112247.191011236,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						112584.269662921,
-						-1,
 						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						112921.348314607,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						111910.112359551,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						112247.191011236,
-						-1,
-						"picospeakershoot1",
 						"",
 						""
 					],
@@ -4433,10 +4328,14 @@
 						""
 					]
 				],
+				"bpm": 0,
+				"changeBPM": false,
 				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						113258.426966292,
@@ -4460,36 +4359,75 @@
 						""
 					],
 					[
-						113258.426966292,
+						113342.696629214,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						113932.584269663,
+						113426.966292135,
 						-1,
 						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						114269.662921348,
+						113511.235955056,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						114446.629213483,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						114446.629213483,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						114433.988764045,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						114429.775280899,
+						-1,
+						"picospeakershoot1",
+						"",
+						""
+					],
+					[
+						114425.561797753,
+						-1,
+						"picospeakershoot1",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						114606.741573034,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot1",
 						"",
 						""
 					],
@@ -4501,44 +4439,9 @@
 						""
 					],
 					[
-						115280.898876405,
-						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
 						115617.97752809,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						114606.741573034,
-						-1,
-						"picospeakershoot4",
-						"",
-						""
-					],
-					[
-						114943.820224719,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						115280.898876405,
-						-1,
 						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						115617.97752809,
-						-1,
-						"picospeakershoot3",
 						"",
 						""
 					],
@@ -4550,29 +4453,26 @@
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						115955.056179775,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot1",
 						"",
 						""
 					],
 					[
 						116292.134831461,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						116629.213483146,
-						-1,
-						"picospeakershoot2",
+						"picospeakershoot3",
 						"",
 						""
 					],
@@ -4584,76 +4484,52 @@
 						""
 					],
 					[
-						115955.056179775,
+						116123.595505618,
 						-1,
 						"picospeakershoot4",
 						"",
 						""
 					],
 					[
-						116292.134831461,
+						116629.213483146,
 						-1,
 						"picospeakershoot1",
 						"",
 						""
 					],
 					[
-						116629.213483146,
+						117134.831460674,
 						-1,
-						"picospeakershoot2",
-						"",
-						""
-					],
-					[
-						116966.292134831,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot1",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						117303.370786517,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						117387.640449438,
-						-1,
-						"picospeakershoot3",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						117640.449438202,
 						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
-					[
-						117724.719101124,
-						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						117977.528089888,
-						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						118061.797752809,
 						-1,
 						"picospeakershoot2",
 						"",
@@ -4667,34 +4543,45 @@
 						""
 					],
 					[
-						118398.876404494,
+						118061.797752809,
 						-1,
-						"picospeakershoot4",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						118146.067415731,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
+						"",
+						""
+					],
+					[
+						118398.876404495,
+						-1,
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						118483.146067416,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
-						118651.685393259,
+						118651.685393258,
 						-1,
 						"picospeakershoot1",
 						"",
@@ -4708,23 +4595,23 @@
 						""
 					],
 					[
-						118904.494382023,
+						118904.494382022,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						118988.764044944,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						119157.303370787,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4745,36 +4632,40 @@
 					[
 						119494.382022472,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						119662.921348315,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
-						119831.460674158,
+						119831.460674157,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
 						119915.730337079,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
 				"sectionNotes": [
 					[
 						120000,
@@ -4793,21 +4684,21 @@
 					[
 						120252.808988764,
 						-1,
-						"picospeakershoot3",
+						"picospeakershoot2",
 						"",
 						""
 					],
 					[
-						120337.078651686,
+						120337.078651685,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						120505.617977528,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot2",
 						"",
 						""
 					],
@@ -4826,106 +4717,246 @@
 						""
 					],
 					[
-						120842.696629214,
+						120842.696629213,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot4",
 						"",
 						""
 					],
 					[
 						121011.235955056,
 						-1,
-						"picospeakershoot1",
-						"",
-						""
-					],
-					[
-						121179.775280899,
-						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						121095.505617978,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						121179.775280899,
+						-1,
+						"picospeakershoot3",
 						"",
 						""
 					],
 					[
 						121264.04494382,
 						-1,
-						"picospeakershoot1",
+						"picospeakershoot3",
 						"",
 						""
 					]
 				],
-				"mustHitSection": true
-			},
-			{
-				"lengthInSteps": 16,
-				"sectionNotes": [],
-				"mustHitSection": true
-			},
-			{
-				"lengthInSteps": 16,
-				"sectionNotes": [],
-				"mustHitSection": true
-			},
-			{
-				"lengthInSteps": 16,
-				"sectionNotes": [],
-				"typeOfSection": 0,
-				"altAnim": false,
-				"mustHitSection": true,
+				"bpm": 0,
 				"changeBPM": false,
-				"bpm": 178
-			},
-			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"mustHitSection": true,
-				"changeBPM": false,
-				"bpm": 178
-			},
-			{
-				"lengthInSteps": 16,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"altAnim": false,
-				"bpm": 178,
-				"changeBPM": false,
-				"mustHitSection": true
-			},
-			{
-				"sectionNotes": [],
-				"typeOfSection": 0,
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"mustHitSection": true,
-				"changeBPM": false,
-				"bpm": 178
+				"mustHitSection": false
 			},
 			{
 				"lengthInSteps": 16,
 				"altAnim": false,
 				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 178,
+				"sectionNotes": [
+					[
+						121601.123595506,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						121938.202247191,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						122275.280898877,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					]
+				],
+				"bpm": 0,
 				"changeBPM": false,
-				"mustHitSection": true
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [
+					[
+						122696.629213483,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						123033.707865169,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						123370.786516854,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						123707.86516854,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					]
+				],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
+			},
+			{
+				"lengthInSteps": 16,
+				"altAnim": false,
+				"typeOfSection": 0,
+				"sectionNotes": [],
+				"bpm": 0,
+				"changeBPM": false,
+				"mustHitSection": false
 			}
 		],
-		"gfVersion": "picospeaker",
-		"player3": "picospeaker",
-		"song": "Stress",
-		"needsVoices": false,
-		"validScore": true,
-		"stage": "tank2",
-		"speed": 2.6,
-		"bpm": 178
+		"splashSkin": null,
+		"validScore": false,
+		"bpm": 178,
+		"arrowSkin": null,
+		"needsVoices": true,
+		"song": "Stress"
 	}
 }

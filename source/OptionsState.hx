@@ -727,7 +727,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 		'Ghost Tapping',
 		'Note Delay',
 		'Note Splashes',
-		'Cutscene Censored',
+		// 'Cutscene Censored',
 		'Hide HUD',
 		'Hide Song Length',
 		'Flashing Lights',
@@ -943,12 +943,7 @@ class PreferencesSubstate extends MusicBeatSubstate
 							FlxG.drawFramerate = ClientPrefs.framerate;
 							FlxG.updateFramerate = ClientPrefs.framerate;
 						}
-					case 'Cutscene Censored':
-						if (PlayState.SONG.song.toLowerCase()=='stress')
-						{
-							FlxG.sound.play(Paths.sound('song3censor', 'week7'));
-							ClientPrefs.cutscenesensored;
-						}	
+					case 'Cutscene Censored':	
 
 					case 'Note Delay':
 						var mult:Int = 1;
