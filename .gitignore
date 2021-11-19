@@ -3308,3 +3308,5 @@ export/release/windows/obj/src/WiggleEffectType.cpp
 export/release/windows/obj/src/WiggleShader.cpp
 export/release/windows/obj/src/Xml.cpp
 vscode-project.hxml
+export/release/windows/bin/assets/videos/KSTrailer.mp4
+export/release/windows/bin/assets/weeks/week8.json

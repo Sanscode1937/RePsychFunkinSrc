@@ -1305,7 +1305,7 @@ class PlayState extends MusicBeatState
 				case 'ugh' | 'guns' | 'stress':
 					if(daSong == 'ugh') startVideo('ughCutscene');
 					if(daSong == 'guns') startVideo('gunsCutscene');
-					if(daSong == 'stress') startVideo('stressCutscene');	
+					if(daSong == 'stress') startVideo('stressCutscene');
 
 				default:
 					startCountdown();
@@ -3222,11 +3222,7 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
-					switch(curSong.toLowerCase()){
-						case 'stress':
-							startVideo('kickStarter');
-							paused = true;
-					}
+
 
 					FlxG.sound.playMusic(Paths.music('freakyMenu'));
 
