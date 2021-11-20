@@ -1,6 +1,6 @@
 {
 	"song": {
-		"speed": 1.75,
+		"speed": 2.6,
 		"stage": "tank2",
 		"player1": "bf-holding-gf",
 		"player2": "tankman",
@@ -11,13 +11,6 @@
 				"altAnim": false,
 				"typeOfSection": 0,
 				"sectionNotes": [
-					[
-						0,
-						-1,
-						"picospeakershoot3",
-						"",
-						""
-					],
 					[
 						168.539325842697,
 						-1,
@@ -76,6 +69,20 @@
 					],
 					[
 						1264.04494382022,
+						-1,
+						"picospeakershoot3",
+						"",
+						""
+					],
+					[
+						84.2696629213483,
+						-1,
+						"Health Drain",
+						"0.01",
+						"75.46"
+					],
+					[
+						0,
 						-1,
 						"picospeakershoot3",
 						"",
@@ -2901,6 +2908,13 @@
 						"picospeakershoot1",
 						"",
 						""
+					],
+					[
+						75589.8876404495,
+						-1,
+						"Health Drain",
+						"0.01",
+						"118.66"
 					]
 				],
 				"bpm": 0,
@@ -4533,76 +4547,13 @@
 				"bpm": 0,
 				"changeBPM": false,
 				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
-			},
-			{
-				"lengthInSteps": 16,
-				"altAnim": false,
-				"typeOfSection": 0,
-				"sectionNotes": [],
-				"bpm": 0,
-				"changeBPM": false,
-				"mustHitSection": false
 			}
 		],
 		"splashSkin": null,
 		"validScore": false,
 		"bpm": 178,
 		"arrowSkin": null,
-		"needsVoices": false,
+		"needsVoices": true,
 		"song": "Stress"
 	}
 }

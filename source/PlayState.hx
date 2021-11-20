@@ -2992,6 +2992,25 @@ class PlayState extends MusicBeatState
 					}
 				}
 
+			case 'Health Drain':
+				
+				if(Std.parseFloat(value1) != 0)
+			    {
+					for(i in 0...Std.parseInt(value2) * 10)
+					{
+					    new FlxTimer().start(0.1 * i, function(tmr:FlxTimer)
+						{
+						    health -= Std.parseFloat(value1);
+								
+							if(health <= 0.01)
+							{
+								health = 0.01;
+							}
+
+						});
+					}
+				}
+
 			case 'Change Character':
 				var charType:Int = 0;
 				switch(value1) {

@@ -4060,3 +4060,9 @@ export/release/html5/obj/webfont/vcr.ttf
 export/release/html5/obj/webfont/vcr.woff
 export/release/windows/bin/CHANGELOG.txt
 export/release/windows/bin/assets/data/stress/stress1.json
+export/release/windows/bin/assets/data/senpai/events.json
+export/release/windows/bin/assets/data/pico/events.json
+export/release/windows/bin/assets/data/guns/events.json
+export/release/windows/bin/assets/data/south/events.json
+export/release/windows/bin/assets/data/spookeez/events.json
+export/release/windows/bin/assets/data/ugh/events.json

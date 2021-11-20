@@ -81,7 +81,8 @@ class ChartingState extends MusicBeatState
 		['picospeakershoot1', "shoot1"],
 		['picospeakershoot2', "shoot2"],
 		['picospeakershoot3', "shoot3"],
-		['picospeakershoot4', "shoot4"]
+		['picospeakershoot4', "shoot4"],
+		['Health Drain', "Value 1: Amount to drain Recommended (0.01)\nValue 2: Duration\n\nNOTE: THIS WILL NOT KILL, BUT WILL LEAVE THE PLAYER ON 0.01 HP "],
 	];
 
 	var _file:FileReference;
