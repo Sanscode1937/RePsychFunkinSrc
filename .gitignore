@@ -4058,3 +4058,5 @@ export/release/html5/obj/webfont/vcr.eot
 export/release/html5/obj/webfont/vcr.svg
 export/release/html5/obj/webfont/vcr.ttf
 export/release/html5/obj/webfont/vcr.woff
+export/release/windows/bin/CHANGELOG.txt
+export/release/windows/bin/assets/data/stress/stress1.json
