@@ -4,6 +4,25 @@ All notable changes will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [0.2.8.2]
+### Fix
+- Fix Nonesense Health drain
+- Fix Pico Speaker chart
+### Changed
+- Change Front
+- New bf holding gf
+- now tank stage have only one stage >:)
+- Change text a little bit
+### Added
+- Add erect mode(Hard like hell)
+- New Options Menu
+
+## [0.2.8.1]
+### Added
+- Health Drain >:)
+### Changed
+- Use Psych engine >:))))))
+
 ## [0.2.8]
 ### Added
 - TANKMAN! 3 NEW SONGS BY KAWAISPRITE (UGH, GUNS, STRESS)! Charting help by MtH!

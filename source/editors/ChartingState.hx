@@ -58,7 +58,8 @@ class ChartingState extends MusicBeatState
 		'Hey!',
 		'Hurt Note',
 		'GF Sing',
-		'No Animation'
+		'No Animation',
+		'Dodge Note'
 	];
 	private var noteTypeIntMap:Map<Int, String> = new Map<Int, String>();
 	private var noteTypeMap:Map<String, Null<Int>> = new Map<String, Null<Int>>();
@@ -82,7 +83,7 @@ class ChartingState extends MusicBeatState
 		['picospeakershoot2', "shootRight2"],
 		['picospeakershoot3', "shootLeft3"],
 		['picospeakershoot4', "shootLeft4"],
-		['Health Drain', "Value 1: Amount to drain Recommended (0.01)\nValue 2: Duration\n\nNOTE: THIS WILL NOT KILL, BUT WILL LEAVE THE PLAYER ON 0.01 HP "],
+		['Unused Stuff', "Value 1: Amount to drain Recommended (0.01)\nValue 2: Duration\n\nNOTE: THIS WILL NOT KILL, BUT WILL LEAVE THE PLAYER ON 0.01 HP "],
 	];
 
 	var _file:FileReference;
@@ -299,7 +300,7 @@ class ChartingState extends MusicBeatState
 		for (i in 0...tipTextArray.length) {
 			var tipText:FlxText = new FlxText(UI_box.x, UI_box.y + UI_box.height + 8, 0, tipTextArray[i], 16);
 			tipText.y += i * 14;
-			tipText.setFormat(Paths.font("vcr.ttf"), 16, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
+			tipText.setFormat(Paths.font("Milky Nice.ttf"), 16, FlxColor.WHITE, LEFT/*, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK*/);
 			//tipText.borderSize = 2;
 			tipText.scrollFactor.set();
 			add(tipText);
@@ -1804,7 +1805,7 @@ class ChartingState extends MusicBeatState
 
 			if(note.noteData < 0) {
 				var daText:AttachedFlxText = new AttachedFlxText(0, 0, 400, 'Event: ' + note.eventName + ' (' + Math.floor(note.strumTime) + ' ms)' + '\nValue 1: ' + note.eventVal1 + '\nValue 2: ' + note.eventVal2, 12);
-				daText.setFormat(Paths.font("vcr.ttf"), 12, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+				daText.setFormat(Paths.font("Milky Nice.ttf"), 12, FlxColor.WHITE, RIGHT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 				daText.xAdd = -410;
 				daText.borderSize = 1;
 				curRenderedNoteType.add(daText);
@@ -1816,7 +1817,7 @@ class ChartingState extends MusicBeatState
 					if(typeInt == null) theType = '?';
 
 					var daText:AttachedFlxText = new AttachedFlxText(0, 0, 100, theType, 24);
-					daText.setFormat(Paths.font("vcr.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
+					daText.setFormat(Paths.font("Milky Nice.ttf"), 24, FlxColor.WHITE, CENTER, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
 					daText.xAdd = -32;
 					daText.yAdd = 6;
 					daText.borderSize = 1;

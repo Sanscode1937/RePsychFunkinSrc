@@ -3,20 +3,25 @@ package;
 import Sys.sleep;
 import discord_rpc.DiscordRpc;
 
+#if LUA_ALLOWED
+import llua.Lua;
+import llua.State;
+#end
+
 using StringTools;
 
 class DiscordClient
 {
 	public function new()
 	{
-		trace("Discord Client starting...");
+		trace("Client Starting.");
 		DiscordRpc.start({
 			clientID: "863222024192262205",
 			onReady: onReady,
 			onError: onError,
 			onDisconnected: onDisconnected
 		});
-		trace("Discord Client started.");
+		trace("Client started.");
 
 		while (true)
 		{
@@ -36,10 +41,10 @@ class DiscordClient
 	static function onReady()
 	{
 		DiscordRpc.presence({
-			details: "In the Menus",
+			details: "In MainMenu",
 			state: null,
 			largeImageKey: 'icon',
-			largeImageText: "Psych Engine"
+			largeImageText: "Friday Night Funkin'"
 		});
 	}
 
@@ -59,7 +64,7 @@ class DiscordClient
 		{
 			new DiscordClient();
 		});
-		trace("Discord Client initialized");
+		trace("Client initialized");
 	}
 
 	public static function changePresence(details:String, state:Null<String>, ?smallImageKey : String, ?hasStartTimestamp : Bool, ?endTimestamp: Float)
@@ -75,7 +80,7 @@ class DiscordClient
 			details: details,
 			state: state,
 			largeImageKey: 'icon',
-			largeImageText: "Engine Version: " + MainMenuState.psychEngineVersion,
+			largeImageText: "Game Version: " + MainMenuState.VERSION,
 			smallImageKey : smallImageKey,
 			// Obtained times are in milliseconds so they are divided so Discord can use it
 			startTimestamp : Std.int(startTimestamp / 1000),
@@ -84,4 +89,12 @@ class DiscordClient
 
 		//trace('Discord RPC Updated. Arguments: $details, $state, $smallImageKey, $hasStartTimestamp, $endTimestamp');
 	}
+
+	#if LUA_ALLOWED
+	public static function addLuaCallbacks(lua:State) {
+		Lua_helper.add_callback(lua, "changePresence", function(details:String, state:Null<String>, ?smallImageKey:String, ?hasStartTimestamp:Bool, ?endTimestamp:Float) {
+			changePresence(details, state, smallImageKey, hasStartTimestamp, endTimestamp);
+		});
+	}
+	#end
 }

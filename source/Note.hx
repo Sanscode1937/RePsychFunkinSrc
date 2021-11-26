@@ -96,6 +96,15 @@ class Note extends FlxSprite
 						missHealth = 0.3;
 					}
 					hitCausesMiss = true;
+				case 'Dodge Note':		
+					reloadNote('HURT');			
+					mustPress;
+					if(isSustainNote) {
+						missHealth = 0.4;
+					} else {
+						missHealth = 0.4;
+					}
+					hitCausesMiss = false;
 				case 'PreetyGoodNote':
 					mustPress;			
 					reloadNote('SHARED');

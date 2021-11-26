@@ -5708,7 +5708,7 @@
 		"song": "Stress",
 		"needsVoices": true,
 		"validScore": true,
-		"stage": "tank2",
+		"stage": "tank",
 		"speed": 2.2,
 		"bpm": 178,
 		"noteStyle": "normal"
