@@ -39,7 +39,7 @@ import sys.FileSystem;
 
 using StringTools;
 
-class TankmenBG extends FlxSprite
+class TankmanKilled extends FlxSprite
 {
 
 	        
@@ -53,8 +53,8 @@ class TankmenBG extends FlxSprite
     override public function new()
     {
         super();
-        frames = Paths.getSparrowAtlas("tankmanKilled1");
-        antialiasing = true;
+        frames = Paths.getSparrowAtlas("tankmanKilled1", "week7");
+        antialiasing = ClientPrefs.globalAntialiasing;
         animation.addByPrefix("run", "tankman running", 24, false);
         animation.addByPrefix("shot", "John Shot " + FlxG.random.int(1,2), 24, false);
         animation.play("run");

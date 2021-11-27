@@ -115,7 +115,7 @@ class GameOverSubstate extends MusicBeatSubstate
 				FlxG.sound.playMusic(Paths.music('gameOver' + stageSuffix), 0.3);
 				if (PlayState.curStage == 'tank')
 				{
-					FlxG.sound.play(Paths.sound('jeffGameover-' + FlxG.random.int(1, 25), 'shared'));
+					FlxG.sound.play(Paths.sound('jeffGameover-' + FlxG.random.int(1, 25), 'week7'));
 				}
 			}
 
