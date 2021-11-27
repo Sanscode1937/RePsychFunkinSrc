@@ -213,7 +213,7 @@ class PlayState extends MusicBeatState
 	var tankStep:Ts;
 
 	var tower:FlxSprite;
-	var tankmanRun:FlxTypedGroup<TankmenBG>;	
+	var tankmanRun:FlxTypedGroup<TankmanKilled>;	
 
 	var upperBoppers:BGSprite;
 	var bottomBoppers:BGSprite;
@@ -656,21 +656,17 @@ class PlayState extends MusicBeatState
 
 			case 'tank': //Week 7 - Stress, Guns, Ugh
 			//Say good bye to tank2 stage 
-										
-				GameOverSubstate.loopSoundName = 'gameOverLowAudio';
-
-				tankStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/tankSpawn')));
 
 				var sky:FlxSprite = new FlxSprite(-400,-400).loadGraphic(Paths.image('tankSky', 'week7'));
 				sky.scrollFactor.set(0, 0);
-				sky.antialiasing = true;
+				sky.antialiasing = ClientPrefs.globalAntialiasing;
 				sky.setGraphicSize(Std.int(sky.width * 1.5));
 				add(sky);
 
 				var clouds:FlxSprite = new FlxSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20)).loadGraphic(Paths.image('tankClouds', 'week7'));
 				clouds.scrollFactor.set(0.1, 0.1);
 				clouds.velocity.x = FlxG.random.float(5, 15);
-				clouds.antialiasing = true;
+				clouds.antialiasing = ClientPrefs.globalAntialiasing;
 				clouds.updateHitbox();
 				add(clouds);
 
@@ -678,21 +674,21 @@ class PlayState extends MusicBeatState
 				mountains.scrollFactor.set(0.2, 0.2);
 				mountains.setGraphicSize(Std.int(1.2 * mountains.width));
 				mountains.updateHitbox();
-				mountains.antialiasing = true;
+				mountains.antialiasing = ClientPrefs.globalAntialiasing;
 				add(mountains);
 
 				var buildings:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankBuildings', 'week7'));
 				buildings.scrollFactor.set(0.3, 0.3);
 				buildings.setGraphicSize(Std.int(buildings.width * 1.1));
 				buildings.updateHitbox();
-				buildings.antialiasing = true;
+				buildings.antialiasing = ClientPrefs.globalAntialiasing;
 				add(buildings);
 
 				var ruins:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankRuins', 'week7'));
 				ruins.scrollFactor.set(0.35, 0.35);
 				ruins.setGraphicSize(Std.int(ruins.width * 1.1));
 				ruins.updateHitbox();
-				ruins.antialiasing = true;
+				ruins.antialiasing = ClientPrefs.globalAntialiasing;
 				add(ruins);
 
 
@@ -700,18 +696,16 @@ class PlayState extends MusicBeatState
 				smokeLeft.frames = Paths.getSparrowAtlas('smokeLeft', 'week7');
 				smokeLeft.animation.addByPrefix('idle', 'SmokeBlurLeft ', 24, true);
 				smokeLeft.scrollFactor.set(0.4, 0.4);
-				smokeLeft.antialiasing = true;
-				smokeLeft.animation.play('idle');
-				
+				smokeLeft.antialiasing = ClientPrefs.globalAntialiasing;
+				smokeLeft.animation.play('idle');				
 				add(smokeLeft);
 
 				var smokeRight:FlxSprite = new FlxSprite(1100,-100);
 				smokeRight.frames = Paths.getSparrowAtlas('smokeRight', 'week7');
 				smokeRight.animation.addByPrefix('idle', 'SmokeRight ', 24, true);
 				smokeRight.scrollFactor.set(0.4, 0.4);
-				smokeRight.antialiasing = true;
-				smokeRight.animation.play('idle');
-				
+				smokeRight.antialiasing = ClientPrefs.globalAntialiasing;
+				smokeRight.animation.play('idle');				
 				add(smokeRight);
 
 
@@ -719,18 +713,14 @@ class PlayState extends MusicBeatState
 				tankWatchtower.frames = Paths.getSparrowAtlas('tankWatchtower', 'week7');
 				tankWatchtower.animation.addByPrefix('bop', 'watchtower gradient color instance 1', 24, true);
 				tankWatchtower.scrollFactor.set(0.5, 0.5);
-				tankWatchtower.antialiasing = true;
-			
+				tankWatchtower.antialiasing = ClientPrefs.globalAntialiasing;			
 				add(tankWatchtower);
-
-				tankmanRun = new FlxTypedGroup<TankmenBG>();
-				add(tankmanRun);
 
 				tankRolling = new FlxSprite(300,400);
 				tankRolling.frames = Paths.getSparrowAtlas('tankRolling', 'week7');
 				tankRolling.animation.addByPrefix('idle', 'BG tank w lighting ', 24, true);
 				tankRolling.scrollFactor.set(0.5, 0.5);
-				tankRolling.antialiasing = true;
+				tankRolling.antialiasing = ClientPrefs.globalAntialiasing;
 				tankRolling.animation.play('idle');
 				tankAngle += FlxG.elapsed * tankSpeed;
 				tankRolling.angle = tankAngle - 90 + 15;
@@ -738,13 +728,14 @@ class PlayState extends MusicBeatState
 				tankRolling.y = 1300 + 1100 * FlxMath.fastSin(FlxAngle.asRadians(tankAngle + 180));
 				add(tankRolling);					
 
+				tankmanRun = new FlxTypedGroup<TankmanKilled>();
+				add(tankmanRun);				
 
 				var ground:FlxSprite = new FlxSprite(-420, -150).loadGraphic(Paths.image('tankGround', 'week7'));
 				ground.scrollFactor.set();
-				ground.antialiasing = true;
+				ground.antialiasing = ClientPrefs.globalAntialiasing;
 				ground.setGraphicSize(Std.int(ground.width * 1.15));
-				ground.scrollFactor.set(1, 1);
-				
+				ground.scrollFactor.set(1, 1);				
 				ground.updateHitbox();
 				add(ground);
 
@@ -752,37 +743,37 @@ class PlayState extends MusicBeatState
 				tankBop1.frames = Paths.getSparrowAtlas('tank0', 'week7');
 				tankBop1.animation.addByPrefix('bop', 'fg tankhead far right instance 1', 24);
 				tankBop1.scrollFactor.set(1.7, 1.5);
-				tankBop1.antialiasing = true;
+				tankBop1.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankBop2 = new FlxSprite(-300,750);
 				tankBop2.frames = Paths.getSparrowAtlas('tank1', 'week7');
 				tankBop2.animation.addByPrefix('bop','fg tankhead 5 instance 1', 24);
 				tankBop2.scrollFactor.set(2.0, 0.2);
-				tankBop2.antialiasing = true;
+				tankBop2.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankBop3 = new FlxSprite(450,940);
 				tankBop3.frames = Paths.getSparrowAtlas('tank2', 'week7');
 				tankBop3.animation.addByPrefix('bop','foreground man 3 instance 1', 24);
 				tankBop3.scrollFactor.set(1.5, 1.5);
-				tankBop3.antialiasing = true;
+				tankBop3.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankBop4 = new FlxSprite(1300,1200);
 				tankBop4.frames = Paths.getSparrowAtlas('tank3', 'week7');
 				tankBop4.animation.addByPrefix('bop','fg tankhead 4 instance 1', 24);
 				tankBop4.scrollFactor.set(3.5, 2.5);
-				tankBop4.antialiasing = true;
+				tankBop4.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankBop5 = new FlxSprite(1300,900);
 				tankBop5.frames = Paths.getSparrowAtlas('tank4', 'week7');
 				tankBop5.animation.addByPrefix('bop','fg tankman bobbin 3 instance 1', 24);
 				tankBop5.scrollFactor.set(1.5, 1.5);
-				tankBop5.antialiasing = true;
+				tankBop5.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankBop6 = new FlxSprite(1620,700);
 				tankBop6.frames = Paths.getSparrowAtlas('tank5', 'week7');
 				tankBop6.animation.addByPrefix('bop','fg tankhead far right instance 1', 24);
 				tankBop6.scrollFactor.set(1.5, 1.5);
-				tankBop6.antialiasing = true;
+				tankBop6.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankWatchtower.animation.play('bop');
 				tankBop1.animation.play('bop');
@@ -3280,16 +3271,19 @@ class PlayState extends MusicBeatState
 		{
 			daRating = 'shit';
 			score = 50;
+			spawnNoteSplashOnNote(note);
 		}
 		else if (noteDiff > Conductor.safeZoneOffset * 0.5)
 		{
 			daRating = 'bad';
 			score = 100;
+			spawnNoteSplashOnNote(note);
 		}
 		else if (noteDiff > Conductor.safeZoneOffset * 0.25)
 		{
 			daRating = 'good';
 			score = 200;
+			spawnNoteSplashOnNote(note);
 		}
 
 		if(daRating == 'sick' && !note.noteSplashDisabled)
@@ -3982,7 +3976,13 @@ class PlayState extends MusicBeatState
 		if(SONG.song.toLowerCase() == 'stress')
 			{
 				GameOverSubstate.characterName = 'bf-holding-gf';
+				tankStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/tankSpawn')));
 			}
+
+		if(curStage == 'tank')
+			{
+				GameOverSubstate.loopSoundName = 'gameOverLowAudio';				
+			}	
 
 		if(SONG.song.toLowerCase() == 'stress')
 			{
@@ -3990,7 +3990,7 @@ class PlayState extends MusicBeatState
 				for (i in 0...tankStep.left.length)
 				{
 					if (curStep == tankStep.left[i]){
-						var tankmanRunner:TankmenBG = new TankmenBG();
+						var tankmanRunner:TankmanKilled = new TankmanKilled();
 						tankmanRunner.resetShit(FlxG.random.int(630, 730) * -1, 255, true, 1, 1.5);
 	
 						tankmanRun.add(tankmanRunner);
@@ -4001,7 +4001,7 @@ class PlayState extends MusicBeatState
 				for(i in 0...tankStep.right.length)
 				{
 					if (curStep == tankStep.right[i]){
-						var tankmanRunner:TankmenBG = new TankmenBG();
+						var tankmanRunner:TankmanKilled = new TankmanKilled();
 						tankmanRunner.resetShit(FlxG.random.int(1500, 1700) * 1, 275, false, 1, 1.5);
 						tankmanRun.add(tankmanRunner);
 					}
