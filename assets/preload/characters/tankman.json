@@ -1,81 +1,81 @@
 {
 	"animations": [
 		{
-			"offsets": [
-				-15,
-				-9
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				-10,
+				-10
+			],
 			"anim": "singUP-alt",
-			"indices": [],
-			"name": "TANKMAN UGH instance 1"
-		},
-		{
-			"offsets": [
-				88,
-				-110
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Tankman DOWN note instance 1"
+			"name": "TANKMAN UGH instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
 			"offsets": [
-				110,
+				98,
+				-90
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Tankman DOWN note instance 1",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				100,
 				-14
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singLEFT",
-			"indices": [],
-			"name": "Tankman Right Note instance 1"
+			"fps": 24,
+			"name": "Tankman Right Note instance 1",
+			"indices": []
 		},
 		{
-			"offsets": [
-				-37,
-				-18
-			],
 			"loop": false,
-			"fps": 24,
+			"offsets": [
+				1,
+				-7
+			],
 			"anim": "singRIGHT",
-			"indices": [],
-			"name": "Tankman Note Left instance 1"
-		},
-		{
-			"offsets": [
-				22,
-				66
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singUP",
-			"indices": [],
-			"name": "Tankman UP note instance 1"
+			"name": "Tankman Note Left instance 1",
+			"indices": []
 		},
 		{
+			"loop": false,
+			"offsets": [
+				24,
+				56
+			],
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Tankman UP note instance 1",
+			"indices": []
+		},
+		{
+			"loop": true,
 			"offsets": [
 				0,
 				0
 			],
-			"loop": true,
-			"fps": 23,
 			"anim": "idle",
-			"indices": [],
-			"name": "Tankman Idle Dance instance 1"
+			"fps": 23,
+			"name": "Tankman Idle Dance instance 1",
+			"indices": []
 		},
 		{
-			"loop": false,
 			"offsets": [
 				0,
-				13
+				15
 			],
-			"anim": "HPG",
+			"loop": false,
 			"fps": 24,
-			"name": "PRETTY GOOD tankman instance 1",
-			"indices": []
+			"anim": "HPG",
+			"indices": [],
+			"name": "PRETTY GOOD tankman instance 1"
 		}
 	],
 	"no_antialiasing": false,
