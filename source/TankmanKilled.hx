@@ -74,7 +74,7 @@ class TankmanKilled extends FlxSprite
         }
         if(speedModifier == null)
         {
-            speedModifier = 1;
+            speedModifier = 1.5;
         }
         runAnimPlayedTimesMax = stepsMax;
 

@@ -203,12 +203,15 @@ class PlayState extends MusicBeatState
 
 	var tankWatchtower:FlxSprite;
 	var tankRolling:FlxSprite;
-	var tankBop1:FlxSprite;
-	var tankBop2:FlxSprite;
-	var tankBop3:FlxSprite;
-	var tankBop4:FlxSprite;
-	var tankBop5:FlxSprite;
-	var tankBop6:FlxSprite;	
+	var tank0:FlxSprite;
+	var tank1:FlxSprite;
+	var tank2:FlxSprite;
+	var tank3:FlxSprite;
+	var tank4:FlxSprite;
+	var tank5:FlxSprite;	
+
+	var tankBuildings:FlxSprite;
+	var tankRuins:FlxSprite;
 
 	var tankStep:Ts;
 
@@ -654,42 +657,43 @@ class PlayState extends MusicBeatState
 					add(bg);
 				}
 
-			case 'tank': //Week 7 - Stress, Guns, Ugh
-			//Say good bye to tank2 stage 
+			case 'tank': //Week 7 - Stress, Guns, Ugh 
 
-				var sky:FlxSprite = new FlxSprite(-400,-400).loadGraphic(Paths.image('tankSky', 'week7'));
-				sky.scrollFactor.set(0, 0);
-				sky.antialiasing = ClientPrefs.globalAntialiasing;
-				sky.setGraphicSize(Std.int(sky.width * 1.5));
-				add(sky);
+				// this goes after tankSky and before tankMoutains in stage file
+				// need to accomodate for the velocity thing!
+				var tankSky:FlxSprite = new FlxSprite(-400,-400).loadGraphic(Paths.image('tankSky', 'week7'));
+				tankSky.scrollFactor.set(0, 0);
+				tankSky.antialiasing = ClientPrefs.globalAntialiasing;
+				tankSky.setGraphicSize(Std.int(tankSky.width * 1.5));
+				add(tankSky);
 
-				var clouds:FlxSprite = new FlxSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20)).loadGraphic(Paths.image('tankClouds', 'week7'));
-				clouds.scrollFactor.set(0.1, 0.1);
-				clouds.velocity.x = FlxG.random.float(5, 15);
-				clouds.antialiasing = ClientPrefs.globalAntialiasing;
-				clouds.updateHitbox();
-				add(clouds);
+				var tankClouds:FlxSprite = new FlxSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20)).loadGraphic(Paths.image('tankClouds', 'week7'));
+				tankClouds.scrollFactor.set(0.1, 0.1);
+				tankClouds.velocity.x = FlxG.random.float(5, 15);
+				tankClouds.antialiasing = ClientPrefs.globalAntialiasing;
+				tankClouds.updateHitbox();
+				add(tankClouds);
 
-				var mountains:FlxSprite = new FlxSprite(-300,-20).loadGraphic(Paths.image('tankMountains', 'week7'));
-				mountains.scrollFactor.set(0.2, 0.2);
-				mountains.setGraphicSize(Std.int(1.2 * mountains.width));
-				mountains.updateHitbox();
-				mountains.antialiasing = ClientPrefs.globalAntialiasing;
-				add(mountains);
+				var tankMountains:FlxSprite = new FlxSprite(-300,-20).loadGraphic(Paths.image('tankMountains', 'week7'));
+				tankMountains.scrollFactor.set(0.2, 0.2);
+				tankMountains.setGraphicSize(Std.int(1.2 * tankMountains.width));
+				tankMountains.updateHitbox();
+				tankMountains.antialiasing = ClientPrefs.globalAntialiasing;
+				add(tankMountains);
 
-				var buildings:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankBuildings', 'week7'));
-				buildings.scrollFactor.set(0.3, 0.3);
-				buildings.setGraphicSize(Std.int(buildings.width * 1.1));
-				buildings.updateHitbox();
-				buildings.antialiasing = ClientPrefs.globalAntialiasing;
-				add(buildings);
+				var tankBuildings:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankBuildings', 'week7'));
+				tankBuildings.scrollFactor.set(0.3, 0.3);
+				tankBuildings.setGraphicSize(Std.int(tankBuildings.width * 1.1));
+				tankBuildings.updateHitbox();
+				tankBuildings.antialiasing = ClientPrefs.globalAntialiasing;
+				add(tankBuildings);
 
-				var ruins:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankRuins', 'week7'));
-				ruins.scrollFactor.set(0.35, 0.35);
-				ruins.setGraphicSize(Std.int(ruins.width * 1.1));
-				ruins.updateHitbox();
-				ruins.antialiasing = ClientPrefs.globalAntialiasing;
-				add(ruins);
+				var tankRuins:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankRuins', 'week7'));
+				tankRuins.scrollFactor.set(0.35, 0.35);
+				tankRuins.setGraphicSize(Std.int(tankRuins.width * 1.1));
+				tankRuins.updateHitbox();
+				tankRuins.antialiasing = ClientPrefs.globalAntialiasing;
+				add(tankRuins);
 
 
 				var smokeLeft:FlxSprite = new FlxSprite(-200,-100);
@@ -708,13 +712,12 @@ class PlayState extends MusicBeatState
 				smokeRight.animation.play('idle');				
 				add(smokeRight);
 
-
 				var tankWatchtower:FlxSprite = new FlxSprite(100,120);
 				tankWatchtower.frames = Paths.getSparrowAtlas('tankWatchtower', 'week7');
 				tankWatchtower.animation.addByPrefix('bop', 'watchtower gradient color instance 1', 24, true);
 				tankWatchtower.scrollFactor.set(0.5, 0.5);
 				tankWatchtower.antialiasing = ClientPrefs.globalAntialiasing;			
-				add(tankWatchtower);
+				add(tankWatchtower);						
 
 				tankRolling = new FlxSprite(300,400);
 				tankRolling.frames = Paths.getSparrowAtlas('tankRolling', 'week7');
@@ -726,62 +729,62 @@ class PlayState extends MusicBeatState
 				tankRolling.angle = tankAngle - 90 + 15;
 				tankRolling.x = tankX + 1500 * FlxMath.fastCos(FlxAngle.asRadians(tankAngle + 180));
 				tankRolling.y = 1300 + 1100 * FlxMath.fastSin(FlxAngle.asRadians(tankAngle + 180));
-				add(tankRolling);					
-
+				add(tankRolling);			
+				
 				tankmanRun = new FlxTypedGroup<TankmanKilled>();
-				add(tankmanRun);				
+				add(tankmanRun);
 
-				var ground:FlxSprite = new FlxSprite(-420, -150).loadGraphic(Paths.image('tankGround', 'week7'));
-				ground.scrollFactor.set();
-				ground.antialiasing = ClientPrefs.globalAntialiasing;
-				ground.setGraphicSize(Std.int(ground.width * 1.15));
-				ground.scrollFactor.set(1, 1);				
-				ground.updateHitbox();
-				add(ground);
+				var tankGround:FlxSprite = new FlxSprite(-420, -150).loadGraphic(Paths.image('tankGround', 'week7'));
+				tankGround.scrollFactor.set();
+				tankGround.antialiasing = ClientPrefs.globalAntialiasing;
+				tankGround.setGraphicSize(Std.int(tankGround.width * 1.15));
+				tankGround.scrollFactor.set(1, 1);				
+				tankGround.updateHitbox();
+				add(tankGround);								
 
-				tankBop1 = new FlxSprite(-500,650);
-				tankBop1.frames = Paths.getSparrowAtlas('tank0', 'week7');
-				tankBop1.animation.addByPrefix('bop', 'fg tankhead far right instance 1', 24);
-				tankBop1.scrollFactor.set(1.7, 1.5);
-				tankBop1.antialiasing = ClientPrefs.globalAntialiasing;
+				tank0 = new FlxSprite(-500,650);
+				tank0.frames = Paths.getSparrowAtlas('tank0', 'week7');
+				tank0.animation.addByPrefix('bop', 'fg tankhead far right instance 1', 24);
+				tank0.scrollFactor.set(1.7, 1.5);
+				tank0.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tankBop2 = new FlxSprite(-300,750);
-				tankBop2.frames = Paths.getSparrowAtlas('tank1', 'week7');
-				tankBop2.animation.addByPrefix('bop','fg tankhead 5 instance 1', 24);
-				tankBop2.scrollFactor.set(2.0, 0.2);
-				tankBop2.antialiasing = ClientPrefs.globalAntialiasing;
+				tank1 = new FlxSprite(-300,750);
+				tank1.frames = Paths.getSparrowAtlas('tank1', 'week7');
+				tank1.animation.addByPrefix('bop','fg tankhead 5 instance 1', 24);
+				tank1.scrollFactor.set(2.0, 0.2);
+				tank1.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tankBop3 = new FlxSprite(450,940);
-				tankBop3.frames = Paths.getSparrowAtlas('tank2', 'week7');
-				tankBop3.animation.addByPrefix('bop','foreground man 3 instance 1', 24);
-				tankBop3.scrollFactor.set(1.5, 1.5);
-				tankBop3.antialiasing = ClientPrefs.globalAntialiasing;
+				tank2 = new FlxSprite(450,940);
+				tank2.frames = Paths.getSparrowAtlas('tank2', 'week7');
+				tank2.animation.addByPrefix('bop','foreground man 3 instance 1', 24);
+				tank2.scrollFactor.set(1.5, 1.5);
+				tank2.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tankBop4 = new FlxSprite(1300,1200);
-				tankBop4.frames = Paths.getSparrowAtlas('tank3', 'week7');
-				tankBop4.animation.addByPrefix('bop','fg tankhead 4 instance 1', 24);
-				tankBop4.scrollFactor.set(3.5, 2.5);
-				tankBop4.antialiasing = ClientPrefs.globalAntialiasing;
+				tank3 = new FlxSprite(1300,1200);
+				tank3.frames = Paths.getSparrowAtlas('tank3', 'week7');
+				tank3.animation.addByPrefix('bop','fg tankhead 4 instance 1', 24);
+				tank3.scrollFactor.set(3.5, 2.5);
+				tank3.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tankBop5 = new FlxSprite(1300,900);
-				tankBop5.frames = Paths.getSparrowAtlas('tank4', 'week7');
-				tankBop5.animation.addByPrefix('bop','fg tankman bobbin 3 instance 1', 24);
-				tankBop5.scrollFactor.set(1.5, 1.5);
-				tankBop5.antialiasing = ClientPrefs.globalAntialiasing;
+				tank4 = new FlxSprite(1300,900);
+				tank4.frames = Paths.getSparrowAtlas('tank4', 'week7');
+				tank4.animation.addByPrefix('bop','fg tankman bobbin 3 instance 1', 24);
+				tank4.scrollFactor.set(1.5, 1.5);
+				tank4.antialiasing = ClientPrefs.globalAntialiasing;
 
-				tankBop6 = new FlxSprite(1620,700);
-				tankBop6.frames = Paths.getSparrowAtlas('tank5', 'week7');
-				tankBop6.animation.addByPrefix('bop','fg tankhead far right instance 1', 24);
-				tankBop6.scrollFactor.set(1.5, 1.5);
-				tankBop6.antialiasing = ClientPrefs.globalAntialiasing;
+				tank5 = new FlxSprite(1620,700);
+				tank5.frames = Paths.getSparrowAtlas('tank5', 'week7');
+				tank5.animation.addByPrefix('bop','fg tankhead far right instance 1', 24);
+				tank5.scrollFactor.set(1.5, 1.5);
+				tank5.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tankWatchtower.animation.play('bop');
-				tankBop1.animation.play('bop');
-				tankBop2.animation.play('bop');
-				tankBop3.animation.play('bop');
-				tankBop4.animation.play('bop');
-				tankBop5.animation.play('bop');
-				tankBop6.animation.play('bop');			
+				tank0.animation.play('bop');
+				tank1.animation.play('bop');
+				tank2.animation.play('bop');
+				tank3.animation.play('bop');
+				tank4.animation.play('bop');
+				tank5.animation.play('bop');			
 
 		}
 
@@ -799,12 +802,12 @@ class PlayState extends MusicBeatState
 		add(boyfriendGroup);
 		
 		if (curStage == 'tank')
-			add(tankBop1);
-			add(tankBop2);
-			add(tankBop3);
-			add(tankBop4);
-			add(tankBop5);
-			add(tankBop6);		
+			add(tank0);
+			add(tank1);
+			add(tank2);
+			add(tank3);
+			add(tank4);
+			add(tank5);		
 
 		if(curStage == 'spooky') {
 			add(halloweenWhite);
