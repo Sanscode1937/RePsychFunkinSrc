@@ -74,11 +74,11 @@ class TankmanKilled extends FlxSprite
         }
         if(speedModifier == null)
         {
-            speedModifier = 1.5;
+            speedModifier = 2.5;
         }
         runAnimPlayedTimesMax = stepsMax;
 
-        var newSpeedModifier:Float = speedModifier * 2;
+        var newSpeedModifier:Float = speedModifier * 2.7;
         
         tankSpeed = FlxG.random.float(0.6, 1) * 170;
         if(goingRight)

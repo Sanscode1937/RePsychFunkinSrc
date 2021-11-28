@@ -3978,10 +3978,15 @@ class PlayState extends MusicBeatState
 
 		if(SONG.song.toLowerCase() == 'stress')
 			{
-				GameOverSubstate.characterName = 'bf-holding-gf';
 				tankStep = Json.parse(openfl.utils.Assets.getText(Paths.json('stress/tankSpawn')));
 			}
 
+		if(boyfriend.curCharacter.startsWith('bf-holding-gf'))
+			{
+				GameOverSubstate.characterName = 'bf-holding-gf';
+			}
+			
+			
 		if(curStage == 'tank')
 			{
 				GameOverSubstate.loopSoundName = 'gameOverLowAudio';				
