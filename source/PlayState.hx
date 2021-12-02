@@ -662,34 +662,34 @@ class PlayState extends MusicBeatState
 
 				// this goes after tankSky and before tankMoutains in stage file
 				// need to accomodate for the velocity thing!
-				var tankSky:FlxSprite = new FlxSprite(-400,-400).loadGraphic(Paths.image('tankSky', 'week7'));
+				var tankSky:FlxSprite = new FlxSprite(-400,-400).loadGraphic(Paths.image('tankSky'));
 				tankSky.scrollFactor.set(0, 0);
 				tankSky.antialiasing = ClientPrefs.globalAntialiasing;
 				tankSky.setGraphicSize(Std.int(tankSky.width * 1.5));
 				add(tankSky);
 
-				var tankClouds:FlxSprite = new FlxSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20)).loadGraphic(Paths.image('tankClouds', 'week7'));
+				var tankClouds:FlxSprite = new FlxSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20)).loadGraphic(Paths.image('tankClouds'));
 				tankClouds.scrollFactor.set(0.1, 0.1);
 				tankClouds.velocity.x = FlxG.random.float(5, 15);
 				tankClouds.antialiasing = ClientPrefs.globalAntialiasing;
 				tankClouds.updateHitbox();
 				add(tankClouds);
 
-				var tankMountains:FlxSprite = new FlxSprite(-300,-20).loadGraphic(Paths.image('tankMountains', 'week7'));
+				var tankMountains:FlxSprite = new FlxSprite(-300,-20).loadGraphic(Paths.image('tankMountains'));
 				tankMountains.scrollFactor.set(0.2, 0.2);
 				tankMountains.setGraphicSize(Std.int(1.2 * tankMountains.width));
 				tankMountains.updateHitbox();
 				tankMountains.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tankMountains);
 
-				var tankBuildings:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankBuildings', 'week7'));
+				var tankBuildings:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankBuildings'));
 				tankBuildings.scrollFactor.set(0.3, 0.3);
 				tankBuildings.setGraphicSize(Std.int(tankBuildings.width * 1.1));
 				tankBuildings.updateHitbox();
 				tankBuildings.antialiasing = ClientPrefs.globalAntialiasing;
 				add(tankBuildings);
 
-				var tankRuins:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankRuins', 'week7'));
+				var tankRuins:FlxSprite = new FlxSprite(-200,0).loadGraphic(Paths.image('tankRuins'));
 				tankRuins.scrollFactor.set(0.35, 0.35);
 				tankRuins.setGraphicSize(Std.int(tankRuins.width * 1.1));
 				tankRuins.updateHitbox();
@@ -698,7 +698,7 @@ class PlayState extends MusicBeatState
 
 
 				var smokeLeft:FlxSprite = new FlxSprite(-200,-100);
-				smokeLeft.frames = Paths.getSparrowAtlas('smokeLeft', 'week7');
+				smokeLeft.frames = Paths.getSparrowAtlas('smokeLeft');
 				smokeLeft.animation.addByPrefix('idle', 'SmokeBlurLeft ', 24, true);
 				smokeLeft.scrollFactor.set(0.4, 0.4);
 				smokeLeft.antialiasing = ClientPrefs.globalAntialiasing;
@@ -706,7 +706,7 @@ class PlayState extends MusicBeatState
 				add(smokeLeft);
 
 				var smokeRight:FlxSprite = new FlxSprite(1100,-100);
-				smokeRight.frames = Paths.getSparrowAtlas('smokeRight', 'week7');
+				smokeRight.frames = Paths.getSparrowAtlas('smokeRight');
 				smokeRight.animation.addByPrefix('idle', 'SmokeRight ', 24, true);
 				smokeRight.scrollFactor.set(0.4, 0.4);
 				smokeRight.antialiasing = ClientPrefs.globalAntialiasing;
@@ -714,14 +714,14 @@ class PlayState extends MusicBeatState
 				add(smokeRight);
 
 				var tankWatchtower:FlxSprite = new FlxSprite(100,120);
-				tankWatchtower.frames = Paths.getSparrowAtlas('tankWatchtower', 'week7');
+				tankWatchtower.frames = Paths.getSparrowAtlas('tankWatchtower');
 				tankWatchtower.animation.addByPrefix('bop', 'watchtower gradient color instance 1', 24, true);
 				tankWatchtower.scrollFactor.set(0.5, 0.5);
 				tankWatchtower.antialiasing = ClientPrefs.globalAntialiasing;			
 				add(tankWatchtower);						
 
 				tankRolling = new FlxSprite(300,400);
-				tankRolling.frames = Paths.getSparrowAtlas('tankRolling', 'week7');
+				tankRolling.frames = Paths.getSparrowAtlas('tankRolling');
 				tankRolling.animation.addByPrefix('idle', 'BG tank w lighting ', 24, true);
 				tankRolling.scrollFactor.set(0.5, 0.5);
 				tankRolling.antialiasing = ClientPrefs.globalAntialiasing;
@@ -735,7 +735,7 @@ class PlayState extends MusicBeatState
 				tankmanRun = new FlxTypedGroup<TankmanKilled>();
 				add(tankmanRun);
 
-				var tankGround:FlxSprite = new FlxSprite(-420, -150).loadGraphic(Paths.image('tankGround', 'week7'));
+				var tankGround:FlxSprite = new FlxSprite(-420, -150).loadGraphic(Paths.image('tankGround'));
 				tankGround.scrollFactor.set();
 				tankGround.antialiasing = ClientPrefs.globalAntialiasing;
 				tankGround.setGraphicSize(Std.int(tankGround.width * 1.15));
@@ -744,37 +744,37 @@ class PlayState extends MusicBeatState
 				add(tankGround);								
 
 				tank0 = new FlxSprite(-500,650);
-				tank0.frames = Paths.getSparrowAtlas('tank0', 'week7');
+				tank0.frames = Paths.getSparrowAtlas('tank0');
 				tank0.animation.addByPrefix('bop', 'fg tankhead far right instance 1', 24);
 				tank0.scrollFactor.set(1.7, 1.5);
 				tank0.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tank1 = new FlxSprite(-300,750);
-				tank1.frames = Paths.getSparrowAtlas('tank1', 'week7');
+				tank1.frames = Paths.getSparrowAtlas('tank1');
 				tank1.animation.addByPrefix('bop','fg tankhead 5 instance 1', 24);
 				tank1.scrollFactor.set(2.0, 0.2);
 				tank1.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tank2 = new FlxSprite(450,940);
-				tank2.frames = Paths.getSparrowAtlas('tank2', 'week7');
+				tank2.frames = Paths.getSparrowAtlas('tank2');
 				tank2.animation.addByPrefix('bop','foreground man 3 instance 1', 24);
 				tank2.scrollFactor.set(1.5, 1.5);
 				tank2.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tank3 = new FlxSprite(1300,1200);
-				tank3.frames = Paths.getSparrowAtlas('tank3', 'week7');
+				tank3.frames = Paths.getSparrowAtlas('tank3');
 				tank3.animation.addByPrefix('bop','fg tankhead 4 instance 1', 24);
 				tank3.scrollFactor.set(3.5, 2.5);
 				tank3.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tank4 = new FlxSprite(1300,900);
-				tank4.frames = Paths.getSparrowAtlas('tank4', 'week7');
+				tank4.frames = Paths.getSparrowAtlas('tank4');
 				tank4.animation.addByPrefix('bop','fg tankman bobbin 3 instance 1', 24);
 				tank4.scrollFactor.set(1.5, 1.5);
 				tank4.antialiasing = ClientPrefs.globalAntialiasing;
 
 				tank5 = new FlxSprite(1620,700);
-				tank5.frames = Paths.getSparrowAtlas('tank5', 'week7');
+				tank5.frames = Paths.getSparrowAtlas('tank5');
 				tank5.animation.addByPrefix('bop','fg tankhead far right instance 1', 24);
 				tank5.scrollFactor.set(1.5, 1.5);
 				tank5.antialiasing = ClientPrefs.globalAntialiasing;
@@ -1178,6 +1178,68 @@ class PlayState extends MusicBeatState
 					if(daSong == 'roses') FlxG.sound.play(Paths.sound('ANGRY'));
 					schoolIntro(doof);					
 
+				case 'ugh':
+					dad.alpha = 0;
+					healthBarBG.alpha = 0;
+					healthBar.alpha = 0;
+					iconP1.alpha = 0;
+					iconP2.alpha = 0;
+					scoreTxt.alpha = 0;
+
+					var anim1:FlxSprite;
+					anim1 = new FlxSprite(dad.x,dad.y);
+					anim1.frames = Paths.getSparrowAtlas('characters/tank cuts1','shared');
+					anim1.animation.addByPrefix('idle',"tankman cutscene",30,false);
+					anim1.animation.play('idle');
+					anim1.antialiasing = true;
+					add(anim1);
+
+					anim1.animation.callback = function(idle, frameNumber:Int, frameIndex:Int)
+						{
+							if (frameNumber == 137)
+								{
+									boyfriend.playAnim('singUP');
+									camFollow.x += 390;
+								}
+
+							if (frameNumber == 1)
+								{
+									camFollow.x = 290;
+									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 1.2}, 2);
+									var sound:FlxSound;	
+									sound = new FlxSound().loadEmbedded(Paths.sound('cuts1'));
+									sound.play();
+									FlxG.sound.list.add(sound);
+								}						
+								
+							if (frameNumber == 311)
+								{
+									camFollow.x = 450;
+									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 0.9}, 2);
+								}								
+							
+							if (frameNumber == 181)
+								{
+									camFollow.x = 390;
+								}	
+								
+						}					
+
+						anim1.animation.finishCallback = function(idle)
+						{
+							remove(anim1);
+							dad.alpha = 1;
+							startCountdown();
+							if (!ClientPrefs.hideHud)
+								{
+									FlxTween.tween(scoreTxt, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+									FlxTween.tween(iconP1, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+									FlxTween.tween(iconP2, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+									FlxTween.tween(healthBar, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+									FlxTween.tween(healthBarBG, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+								}
+						}	
+					
 				case 'guns':		
 					dad.alpha = 0;
 					healthBarBG.alpha = 0;
@@ -1199,7 +1261,7 @@ class PlayState extends MusicBeatState
 
 							if (frameNumber == 1)
 								{
-									camFollow.x = 280;
+									camFollow.x = 340;
 									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 1.2}, 3);
 									var sound:FlxSound;	
 									sound = new FlxSound().loadEmbedded(Paths.sound('cuts2'));
@@ -1211,12 +1273,13 @@ class PlayState extends MusicBeatState
 							if (frameNumber == 114)
 								{
 									gf.playAnim('sad');
-									camFollow.x = 340;
-									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 1.3}, 1);
+									camFollow.x = 370;
+									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 1.3}, 0.1);
 								}								
 							
-							if (frameNumber == 234)
+							if (frameNumber == 233)
 								{
+									camFollow.x = 450;
 									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 0.9}, 2);
 								}	
 								
@@ -1235,7 +1298,94 @@ class PlayState extends MusicBeatState
 									FlxTween.tween(healthBar, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
 									FlxTween.tween(healthBarBG, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
 								}
-						}											
+						}				
+									
+				case 'stress':
+					dad.alpha = 0;
+					boyfriend.alpha = 0;
+					gf.alpha = 0;
+					healthBarBG.alpha = 0;
+					healthBar.alpha = 0;
+					iconP1.alpha = 0;
+					iconP2.alpha = 0;
+					scoreTxt.alpha = 0;
+
+					var holyfuck:FlxSprite;// very hard cutscene to do ever
+					holyfuck = new FlxSprite(-290,-260);
+					holyfuck.frames = Paths.getSparrowAtlas('characters/StressCutsceneLowResolutionGFVER','shared');
+					holyfuck.animation.addByPrefix('idle',"Gf tank cuts LOW",30,false);
+					holyfuck.setGraphicSize(Std.int(holyfuck.width * 1.4));// ;/
+					holyfuck.animation.play('idle');
+					holyfuck.antialiasing = true;
+					add(holyfuck);
+
+					var geez:FlxSprite;
+					geez = new FlxSprite(dad.x,dad.y);
+					geez.frames = Paths.getSparrowAtlas('characters/StressCutsceneLowResolution','shared');
+					geez.animation.addByPrefix('idle',"tankman cutscene LOW",30,false);
+					geez.setGraphicSize(Std.int(geez.width * 1.4));
+					geez.animation.play('idle');
+					geez.antialiasing = true;
+					add(geez);									
+
+					var bfcuts:FlxSprite;
+					bfcuts = new FlxSprite(790,270);
+					bfcuts.frames = Paths.getSparrowAtlas('characters/tank cuts3 BF','shared');
+					bfcuts.animation.addByPrefix('idle',"BF cuts",30,false);
+					bfcuts.animation.play('idle');
+					bfcuts.antialiasing = true;
+					add(bfcuts);
+
+					bfcuts.animation.callback = function(idle, frameNumber:Int, frameIndex:Int)//do nothing
+						{
+
+						}	
+
+					bfcuts.animation.finishCallback = function(idle)
+						{
+							remove(bfcuts);
+							boyfriend.alpha = 1;
+						}	
+
+					holyfuck.animation.callback = function(idle, frameNumber:Int, frameIndex:Int)//do nothing
+						{
+
+						}
+
+					holyfuck.animation.finishCallback = function(idle)
+						{
+							remove(holyfuck);
+							gf.alpha = 1;
+						}	
+
+					geez.animation.callback = function(idle, frameNumber:Int, frameIndex:Int)
+						{
+
+							if (frameNumber == 1)
+								{
+									var sound:FlxSound;	
+									sound = new FlxSound().loadEmbedded(Paths.sound('cuts3'));
+									sound.play();
+									FlxG.sound.list.add(sound);
+	
+								}					
+						}		
+
+						geez.animation.finishCallback = function(idle)
+							{
+								remove(geez);
+								dad.alpha = 1;
+								startCountdown();
+								if (!ClientPrefs.hideHud)
+									{
+										FlxTween.tween(scoreTxt, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+										FlxTween.tween(iconP1, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+										FlxTween.tween(iconP2, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+										FlxTween.tween(healthBar, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+										FlxTween.tween(healthBarBG, {alpha: 1}, (Conductor.stepCrochet * 16 / 1000), {ease: FlxEase.quadInOut});
+									}
+							}				
+
 				default:
 					startCountdown();
 			}
@@ -1265,7 +1415,7 @@ class PlayState extends MusicBeatState
 		luaDebugGroup.add(new DebugLuaText(text, luaDebugGroup));
 		#end
 	}
-
+	
 	public function reloadHealthBarColors() {
 		healthBar.createFilledBar(FlxColor.fromRGB(dad.healthColorArray[0], dad.healthColorArray[1], dad.healthColorArray[2]),
 			FlxColor.fromRGB(boyfriend.healthColorArray[0], boyfriend.healthColorArray[1], boyfriend.healthColorArray[2]));

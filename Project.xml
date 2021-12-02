@@ -103,7 +103,6 @@
 	<!-- <template path='mods' /> -->
 	
 	<assets path="changelog_but_in_source.md" rename='CHANGELOG.txt'/>
-	<assets path="flash__files" rename='FlashFiles' embed='false'/>
 
 	<!-- NOTE FOR FUTURE SELF SINCE FONTS ARE ALWAYS FUCKY 
 		TO FIX ONE OF THEM, I CONVERTED IT TO OTF. DUNNO IF YOU NEED TO
