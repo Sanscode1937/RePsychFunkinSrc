@@ -16,6 +16,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add erect mode(Hard like hell)
 - New Options Menu
+- Dynamic cutscene instead of mp4
 
 ## [0.2.8.1]
 ### Added
