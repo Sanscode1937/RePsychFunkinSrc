@@ -1369,6 +1369,25 @@ class PlayState extends MusicBeatState
 									FlxG.sound.list.add(sound);
 	
 								}					
+							
+							if (frameNumber == 943)
+								{
+									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 1.2}, 0.1);
+									camFollow.x += 390;
+								}							
+
+							if (frameNumber == 520)
+								{
+									camFollow.x += 290;
+								}								
+
+							if (frameNumber == 971)
+								{
+									camFollow.x = 340;
+									FlxTween.tween(FlxG.camera, {zoom: defaultCamZoom = 0.9}, 3);
+								}	
+
+								
 						}		
 
 						geez.animation.finishCallback = function(idle)
