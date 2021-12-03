@@ -670,7 +670,7 @@ class PlayState extends MusicBeatState
 
 				var tankClouds:FlxSprite = new FlxSprite(FlxG.random.int(-700, -100), FlxG.random.int(-20, 20)).loadGraphic(Paths.image('tankClouds'));
 				tankClouds.scrollFactor.set(0.1, 0.1);
-				tankClouds.velocity.x = FlxG.random.float(5, 15);
+				tankClouds.velocity.x = FlxG.random.float(-20, 20);
 				tankClouds.antialiasing = ClientPrefs.globalAntialiasing;
 				tankClouds.updateHitbox();
 				add(tankClouds);
@@ -713,7 +713,7 @@ class PlayState extends MusicBeatState
 				smokeRight.animation.play('idle');				
 				add(smokeRight);
 
-				var tankWatchtower:FlxSprite = new FlxSprite(100,120);
+				var tankWatchtower:FlxSprite = new FlxSprite(100,50);
 				tankWatchtower.frames = Paths.getSparrowAtlas('tankWatchtower');
 				tankWatchtower.animation.addByPrefix('bop', 'watchtower gradient color instance 1', 24, true);
 				tankWatchtower.scrollFactor.set(0.5, 0.5);
