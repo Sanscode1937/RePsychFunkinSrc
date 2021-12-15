@@ -1179,6 +1179,7 @@ class PlayState extends MusicBeatState
 					schoolIntro(doof);					
 
 				case 'ugh':
+					trace("Ughhhhhhh");
 					dad.alpha = 0;
 					healthBarBG.alpha = 0;
 					healthBar.alpha = 0;
@@ -1241,6 +1242,7 @@ class PlayState extends MusicBeatState
 						}	
 					
 				case 'guns':		
+					trace("Guns");
 					dad.alpha = 0;
 					healthBarBG.alpha = 0;
 					healthBar.alpha = 0;
@@ -1301,6 +1303,7 @@ class PlayState extends MusicBeatState
 						}				
 									
 				case 'stress':
+					trace("Stressss");
 					dad.alpha = 0;
 					boyfriend.alpha = 0;
 					gf.alpha = 0;
